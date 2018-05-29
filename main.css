@@ -54,6 +54,7 @@ body {
   cursor: pointer;
   color: #EEEEEE;
   line-height: 60px;
+  transition: 0.3s;
 }
 .topnav ul li a p {
   position: absolute;
@@ -100,10 +101,12 @@ body {
   height: 100%;
 }
 .logo h1 {
+  font-family: 'open sans', sans-serif;
+  font-weight: 400;
   margin: 0;
   display: block;
   text-align: left;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 2.5rem;
 }
 .logo p {
@@ -113,7 +116,7 @@ body {
   letter-spacing: 0.38rem;
   text-align: left;
   line-height: 1.8rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   padding-left: 0.5rem;
 }
 .logo a {
@@ -127,10 +130,10 @@ body {
   flex-wrap: wrap;
 }
 .logo a img {
-  height: 3.8rem;
+  height: 3.5rem;
   margin: 3px 0 0 3px;
 }
-header {
+.atf-container {
   background-image: url(./images/computer-1149148_1920.jpg);
   background-size: cover;
   background-attachment: fixed;
