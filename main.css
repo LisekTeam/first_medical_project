@@ -23,7 +23,7 @@ body {
   color: #EEEEEE;
 }
 .topnav {
-  background-color: rgb(37, 41, 51, .7);
+  background-color: #025e70;
   text-align: right;
   padding: 0 30px;
   overflow: hidden;
@@ -153,6 +153,32 @@ body {
 .main-title {
   margin: auto;
   font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-button {
+  background-color: #025e70;
+  display: flex;
+  height: 4.2rem;
+  position: relative;
+  z-index: 8;
+  margin-top: 3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.title-button:hover {
+  background-color: #fff;
+}
+.title-button > p {
+  margin: auto 3rem;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.title-button:hover > p {
+  color: #025e70;
 }
 .main-title > p {
   color: #fff;
