@@ -131,14 +131,14 @@ body {
   margin: 3px 0 0 3px;
 }
 header {
-  background-image: url(./image/computer-1149148_1920.jpg);
+  background-image: url(./images/computer-1149148_1920.jpg);
   background-size: cover;
   background-attachment: fixed;
   min-height: 600px;
   width: 100%;
 }
 .image {
-  background-image: url(./image/nonsap-visuals-511403-unsplash.jpg);
+  background-image: url(./images/nonsap-visuals-511403-unsplash.jpg);
   background-size: cover;
   border-radius: 50%;
   width: 260px;
