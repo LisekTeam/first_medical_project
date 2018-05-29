@@ -1,3 +1,9 @@
+$(document).ready(initAll);
+
+function initAll() {
+  /*tu umieszczajmy wywołania*/
+}
+
 $(document).ready(function() {
   // Add smooth scrolling to all links
   $("a").on("click", function(event) {
