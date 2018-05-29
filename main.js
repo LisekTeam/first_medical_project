@@ -1,3 +1,14 @@
+$(document).ready(initAll);
+
+function initAll() {
+  /*tu umieszczajmy wywołania*/
+  atfHeight();
+}
+
+function atfHeight(){
+  $('#sec1-atf-container').height($(window).innerHeight());
+}
+
 $(document).ready(function() {
   // Add smooth scrolling to all links
   $("a").on("click", function(event) {
