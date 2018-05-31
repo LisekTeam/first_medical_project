@@ -218,10 +218,10 @@ body {
   margin: auto;
   text-align: justify;
 }
-.content_intro h1 {
+.content_intro h2, h3, p {
   color: #fff;
 }
-.content h1 {
+.content h2, h3, p {
   text-align: center;
 }
 i {
@@ -274,7 +274,7 @@ i {
 .contact p {
   font-family: 'Indie Flower', cursive;
 }
-.sect h1, .sect ul {
+.sect h2, .sect ul {
   margin-bottom: 40px;
   font-size: 40px;
   text-align: center;
