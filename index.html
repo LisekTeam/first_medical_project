@@ -14,31 +14,29 @@
 </head>
 <body>
   <nav class="topnav" id="myTopnav">
-    <div class="logo">
-      <a href="#Uslugi">
-        <h1>lek. Maciej Rygalski</h1>
-        <p>Usługi Medyczne</p>
-        <img src="./images/house_icon.png" alt="ikona domu">
-      </a>
+    <div class="logo menu-button" id="header">
+      <h1>lek. Maciej Rygalski</h1>
+      <p>Usługi Medyczne</p>
+      <img src="./images/house_icon.png" alt="ikona domu">
     </div>
     <ul class="main_ul">
-      <li><a href="#O_mnie" class="underline">O mnie<p></p></a></li>
-      <li><a href="#Uslugi" class="underline">Usługi medyczne<p></p></a></li>
-      <li><a href="#Kontakt" class="underline">Kontakt<p></p></a></li>
+      <li class="menu-button" id="about">O mnie<p></p></li>
+      <li class="menu-button" id="services">Usługi medyczne<p></p></li>
+      <li class="menu-button" id="contact">Kontakt<p></p></li>
       <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
     </ul>
   </nav>
-  <header class="atf-container" id="sec1-atf-container">
+  <header class="atf-container" id="header-section">
     <div class="main-title">
       <p class="upper">Zdrowie z dostawą do domu</p>
       <p class="lower">Zadzwoń i umów się na wizytę domową</p>
-      <div class="title-button">
+      <div class="title-button menu-button" id="about">
         <p>dowiedz się więcej</p>
       </div>
     </div>
   </header>
   <main class="container">
-    <section id="O_mnie" class="sect about">
+    <section id="about-section" class="sect about">
       <div class="content">
         <div class="content_about">
           <h2><i class="fas fa-user-md"></i>O mnie</h2>
@@ -50,7 +48,7 @@
         </div>
       </div>
     </section>
-    <section id="Uslugi" class="sect services">
+    <section id="services-section" class="sect services">
       <div class="content_intro">
         <h2><i class="fas fa-medkit"></i>Usługi medyczne</h2>
         <h2>Zajmuje się realizacją wizyt domowych oraz obstawą planów zdjęciowych</h2>
@@ -101,7 +99,7 @@
         </div>
       </div>
     </section>
-    <section id="Kontakt" class="sect contact">
+    <section id="contact-section" class="sect contact">
       <div>
         <h2><i class="fas fa-phone-square"></i>Kontakt</h2>
         <h2>tel. 987-654-321</h2>
