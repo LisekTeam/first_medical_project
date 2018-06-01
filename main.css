@@ -263,6 +263,15 @@ i {
 .content_body:hover {
   box-shadow: 3px 5px 4px #000000;
 }
+.pediatrics-ikon {
+  background-image: url(./images/ikona_dzieci.svg);
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  margin: 0 auto;
+  border: solid 1px #000;
+  border-radius: 50%;
+}
 .contact {
   background-color: rgb(238, 238, 238, .5);
   width: 100%;
