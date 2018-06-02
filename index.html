@@ -30,37 +30,34 @@
     <div class="main-title">
       <p class="upper">Zdrowie z dostawą do domu</p>
       <p class="lower">Zadzwoń i umów się na wizytę domową</p>
+      <p>tel. 987-654-321</p>
       <div class="title-button menu-button" id="about">
         <p>dowiedz się więcej</p>
       </div>
     </div>
   </header>
   <main class="container">
-    <section id="about-section" class="sect about">
-      <div class="content">
-        <div class="content_about">
-          <h2><i class="fas fa-user-md"></i>O mnie</h2>
-          <div class="image"></div>
-          <p>Jestem absolwentem I Wydziału Lekarskiego Warszawskiego Uniwersytetu Medycznego. Obecnie pracuję w Klinice Gastroenterologii, Żywienia Dzieci i Pediatrii Warszawskiego Uniwersytetu Medycznego, specjalizuje się w pediatrii.</p>
-          <p>Posiadam doświadczenie w pracy dyżurowej w macierzystej Klinice Gastroenterologii, Żywienia Dzieci i Pediatrii WUM, a także w Klinice Pneumonologii, Alergologii i Pediatrii oraz Klinicznym Oddziale  Obserwacyjno - Izolacyjnym i Pediatrii WUM.</p>
-          <p>Oprócz pracy klinicznej prowadzę zajęcia ze studentami kierunku lekarskiego oraz pielęgniarstwa WUM. Jestem członkiem Polskiego Towarzystwa Pediatrycznego, European Respiratory Society, a także autorem licznych artykułów w czasopismach medycznych. Prowadziłem badania kliniczne II fazy.</p>
-          <p>Ponadto od od wielu lat związany jestem z Gabinetem Alergologicznym Prof. Edwarda Zawiszy, gdzie zdobywałem doświadczenie w dziedzinie alergologii i prowadziłem badania kliniczne.</p>
-        </div>
+    <section  class="column-element section about" id="about-section">
+      <div class="section-items-column-box section about">
+        <h2 class="section-header"><i class="fas fa-user-md"></i>O mnie</h2>
+        <div class="image"></div>
+        <p>Jestem absolwentem I Wydziału Lekarskiego Warszawskiego Uniwersytetu Medycznego. Obecnie pracuję w Klinice Gastroenterologii, Żywienia Dzieci i Pediatrii Warszawskiego Uniwersytetu Medycznego, specjalizuje się w pediatrii.</p>
+        <p>Posiadam doświadczenie w pracy dyżurowej w macierzystej Klinice Gastroenterologii, Żywienia Dzieci i Pediatrii WUM, a także w Klinice Pneumonologii, Alergologii i Pediatrii oraz Klinicznym Oddziale  Obserwacyjno - Izolacyjnym i Pediatrii WUM.</p>
+        <p>Oprócz pracy klinicznej prowadzę zajęcia ze studentami kierunku lekarskiego oraz pielęgniarstwa WUM. Jestem członkiem Polskiego Towarzystwa Pediatrycznego, European Respiratory Society, a także autorem licznych artykułów w czasopismach medycznych. Prowadziłem badania kliniczne II fazy.</p>
+        <p>Ponadto od od wielu lat związany jestem z Gabinetem Alergologicznym Prof. Edwarda Zawiszy, gdzie zdobywałem doświadczenie w dziedzinie alergologii i prowadziłem badania kliniczne.</p>
       </div>
     </section>
-    <section id="services-section" class="sect services">
-      <div class="content_intro">
-        <h2><i class="fas fa-medkit"></i>Usługi medyczne</h2>
-        <h2>Zajmuje się realizacją wizyt domowych oraz obstawą planów zdjęciowych</h2>
-        <p>Realizuję wizyty domowe dla pacjentów pediatrycznych i dorosłych na terenie miasta Warszawy, miejscowości okoliczne do ustalenia. Wyleczę Cię ze wszystkich poniższych przypadłości</p>
-      </div>
-      <div class="content">
-        <div class="content_body">
-          <div class="pediatrics-ikon"></div>
-          <h2>Pediatria</h2>
+    <section class="column-element section services" id="services-section">
+      <h2 class="section-header"><i class="fas fa-medkit"></i>Wyleczę Cię z przypadłości w dziedzinie:</h2>
+      <div class="section-items-box row-element">
+        <div class="section-item column-element content-services">
+          <div class="row-element x">
+            <img src="./images\girl.png" alt="girl" class="services-img">
+            <img src="./images\boy.png" alt="boy" class="services-img">
+          </div>
+          <h2 class="section-item-title">Pediatrii</h2>
           <ul>
-            <li>badanie i diagnostyka dzieci od noworodka do dorosłości</li>
-            <li>profilaktyka</li>
+            <li>diagnostyka dzieci od noworodka do dorosłości</li>
             <li>przeziębienia</li>
             <li>katar</li>
             <li>kaszel</li>
@@ -70,8 +67,12 @@
             <li>zakażenie układu moczowego</li>
           </ul>
         </div>
-        <div class="content_body">
-          <h2>Gastroenterologia</h2>
+        <div class="section-item column-element content-services">
+          <div class="row-element y">
+            <img src="./images\liver.png" alt="liver" class="services-img">
+            <img src="./images\stomach.png" alt="stomach" class="services-img">
+          </div>
+          <h2 class="section-item-title">Gastroenterologii</h2>
           <ul>
             <li>choroba refluksowa przełyku</li>
             <li>choroby żołądka i dwunastnicy</li>
@@ -83,8 +84,12 @@
             <li>ból brzucha</li>
           </ul>
         </div>
-        <div class="content_body">
-          <h2>Alergologia</h2>
+        <div class="section-item column-element content-services">
+          <div class="row-element z">
+            <img src="./images\leaf.png" alt="leaf" class="services-img">
+            <img src="./images\cereals.png" alt="cereals" class="services-img">
+          </div>
+          <h2 class="section-item-title">Alergologii</h2>
           <ul>
             <li>astma oskrzelowa</li>
             <li>alergiczne zapalenie błony śluzowej nosa</li>
@@ -94,8 +99,7 @@
             <li>kontaktowe zapalenie skóry</li>
             <li>pokrzywki skórne</li>
             <li>alergie skórne</li>
-            <li>alergie pokarmowe</li>
-            <li>nietolerancje pokarmowe</li>
+            <li>alergie i nietolerancje pokarmowe</li>
           </ul>
         </div>
       </div>
@@ -107,16 +111,16 @@
         <div class="section-item column-element">
           <img src="./images\teddy-bear.png" alt="logo" class="profits-img">
           <p class="section-item-title">Zadbaj o komfort dziecka</p>
-          <p class="section-item-desc">Wizyta w domu to spokój twój i twojej rodziny</p>
+          <p class="section-item-desc">Wizyta w domu to spokój Twój i Twojej rodziny</p>
         </div>
         <div class="section-item column-element">
           <img src="./images\wall-clock.png" alt="logo" class="profits-img">
           <p class="section-item-title">Oszczędzaj czas i pieniądze</p>
-          <p class="section-item-desc">Umów lekarza na dogodną dla ciebie godzinę</p>
+          <p class="section-item-desc">Umów lekarza na dogodną dla Ciebie godzinę</p>
         </div>
         <div class="section-item column-element">
           <img src="./images\doctor.png" alt="logo" class="profits-img">
-          <p class="section-item-title">Nie ryzykuj</p>
+          <p class="section-item-title">Wybierz profesjonalistę</p>
           <p class="section-item-desc">Postaw na specjalistę z doświadczeniem</p>
         </div>
       </div>
@@ -125,11 +129,11 @@
       <h2 class="section-header">Znajdź aptekę</h2>
       <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, consequatur, deleniti. Perferendis ut fuga rem tenetur temporibus blanditiis unde sint ducimus quae! Maxime reiciendis adipisci itaque ipsam. Labore, doloremque, ratione.</p>
     </div>
-    <section id="contact-section" class="sect contact">
+    <section class="column-element section contact" id="contact-section">
       <div>
-        <h2><i class="fas fa-phone-square"></i>Kontakt</h2>
-        <h2>tel. 987-654-321</h2>
-        <p>"Moją misją jest wysoka jakość opieki medycznej zindywidualizowana dla pacjenta."</p>
+        <h2 class="section-header"><i class="fas fa-phone-square"></i>Kontakt</h2>
+        <h2 class="section-header">tel. 987-654-321</h2>
+        <p class="section-description">"Moją misją jest wysoka jakość opieki medycznej zindywidualizowana dla pacjenta."</p>
       </div>
     </section>
   </main>

@@ -31,11 +31,11 @@ section {
   justify-content: center;
 }
 .section-header {
-  font-size: 4rem;
+  font-size: 6rem;
   color: #393E46;
   margin: 9rem 2rem 8rem 2rem;
   text-align: center;
-
+  max-width: 120rem;
 }
 .section-description {
   font-size: 2rem;
@@ -187,6 +187,9 @@ section {
   flex-direction: column;
   align-items: center;
 }
+.main-title p {
+  font-size: 2rem;
+}
 .title-button {
   background-color: #025e70;
   display: flex;
@@ -232,90 +235,75 @@ section {
   margin: 40px auto;
 }
 .about {
-  min-height: 400px;
-  padding: 50px 30px;
   flex-grow: 7;
-  text-align: justify;
   color: #393E46;
-  width: 100%;
-  margin: auto;
+  margin-bottom: 40px;
+
 }
 .about p {
   padding: 10px;
 }
-.content_about, .content_intro {
-  width: 1200px;
-  margin: auto;
-  text-align: justify;
-}
+
 .content h2, h3, p {
   text-align: center;
 }
 i {
   padding-right: 15px;
 }
-.content {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
+.services > .section-header {
+  color: #ffffff;
 }
 .services {
-  width: 100%;
   min-height: 600px;
-  padding: 50px 10px;
   color: #393E46;
   margin: 0 auto;
-  background-color: gray;
+  background-color: #e9b760;
 }
-.content_body {
-  width: 480px;
-  min-width: 300px;
-  min-height: 330px;
+.check-mark-img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2rem;
+}
+.content-services {
+  background-color: #ffffff;
   padding: 10px;
-  background-color: #FFFFFF;
-  margin: 5px;
-  box-shadow: 1px 3px 3px #000000;
-  transition: 0.4s;
+  box-shadow: 5px 5px 10px #000000;
 }
-.content_body h2 {
-  padding: 10px;
+.services-img {
+  width: 8rem;
+  height: 8rem;
+  margin: auto;
 }
-.content_body li {
-  text-align: left;
-}
-.content_body:hover {
-  box-shadow: 3px 5px 4px #000000;
-}
-.pediatrics-ikon {
-  background-image: url(./images/ikona_dzieci.svg);
-  height: 100px;
-  width: 100px;
-  background-size: cover;
-  margin: 0 auto;
-  border: solid 3px blue;
+.x {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
-/*  background-color: blue;
-*/}
+  background-color: #ffff;
+  border: 7px solid #2C8CB3;
+}
+.y {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #ffff;
+  border: 7px solid #B95150;
+}
+.z {
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #ffff;
+  border: 7px solid #49A010;
+}
 .contact {
   background-color: rgb(238, 238, 238, .5);
-  width: 100%;
-  min-height: 400px;
-  padding: 50px 30px;
-  color: #393E46;
-  text-align: center;
 }
-.contact p {
-  font-family: 'Indie Flower', cursive;
-}
-.sect h2, .sect ul {
-  margin-bottom: 40px;
-  font-size: 40px;
-  text-align: center;
-}
-.sect ul, .sect p {
-  font-size: 20px;
+.section ul, .section p {
+  font-size: 2rem;
+  list-style-image: url(./images/check-mark.svg);
 }
 footer {
   left: 0;
@@ -333,6 +321,9 @@ footer > h3 {
 .section-items-box {
   max-width: 130rem;
   margin: 4rem 2rem;
+}
+.section-items-column-box {
+  max-width: 120rem;
 }
 .section-item {
   width: 34rem;
