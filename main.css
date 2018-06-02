@@ -18,6 +18,31 @@ section {
   width: 100%;
   min-height: 10rem;
 }
+.column-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row-element {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  justify-content: center;
+}
+.section-header {
+  font-size: 4rem;
+  color: #393E46;
+  margin: 9rem 2rem 8rem 2rem;
+  text-align: center;
+
+}
+.section-description {
+  font-size: 2rem;
+  color: #393E46;
+  max-width: 120rem;
+  margin: 0 2rem 4rem 2rem;
+}
 .container {
   background-size: contain;
   margin: 0;
@@ -304,6 +329,32 @@ footer {
 }
 footer > h3 {
   line-height: 50px;
+}
+.section-items-box {
+  max-width: 130rem;
+  margin: 4rem 2rem;
+}
+.section-item {
+  width: 34rem;
+  margin: 1rem 3rem 6rem 3rem;
+  min-height: 10rem;
+}
+.profits-img {
+  width: 11rem;
+  height: 11rem;
+  margin-bottom: 3rem;
+}
+.section-item-title {
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #000;
+  line-height: 2.6rem;
+  margin: 2rem 0;
+}
+.section-item-desc {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #393E46;
 }
 @media screen and (max-width: 1280px) {
   .topnav {
