@@ -269,9 +269,10 @@ i {
   width: 100px;
   background-size: cover;
   margin: 0 auto;
-  border: solid 1px #000;
+  border: solid 3px blue;
   border-radius: 50%;
-}
+/*  background-color: blue;
+*/}
 .contact {
   background-color: rgb(238, 238, 238, .5);
   width: 100%;
