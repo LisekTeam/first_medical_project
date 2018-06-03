@@ -23,14 +23,12 @@
       <li class="menu-button" id="about">O mnie<p></p></li>
       <li class="menu-button" id="services">Usługi medyczne<p></p></li>
       <li class="menu-button" id="contact">Kontakt<p></p></li>
-      <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
     </ul>
   </nav>
   <header class="atf-container" id="header-section">
     <div class="main-title">
       <p class="upper">Zdrowie z dostawą do domu</p>
       <p class="lower">Zadzwoń i umów się na wizytę domową</p>
-      <p>tel. 987-654-321</p>
       <div class="title-button menu-button" id="about">
         <p>dowiedz się więcej</p>
       </div>
@@ -48,59 +46,67 @@
       </div>
     </section>
     <section class="column-element section services" id="services-section">
-      <h2 class="section-header"><i class="fas fa-medkit"></i>Wyleczę Cię z przypadłości w dziedzinie:</h2>
+      <h2 class="section-header"><i class="fas fa-medkit"></i>Zajmuję się kompleksowo poniższymi specjalnościami</h2>
       <div class="section-items-box row-element">
         <div class="section-item column-element content-services">
-          <div class="row-element x">
+          <div class="row-element border-bottom">
             <img src="./images\girl.png" alt="girl" class="services-img">
             <img src="./images\boy.png" alt="boy" class="services-img">
           </div>
-          <h2 class="section-item-title">Pediatrii</h2>
-          <ul>
+          <h2 class="section-item-title">Pediatria</h2>
+          <input type="checkbox" class="read-more-state" id="pediatrics" />
+          <ul class="read-more-wrap">
             <li>diagnostyka dzieci od noworodka do dorosłości</li>
-            <li>przeziębienia</li>
+            <li>przeziębienie</li>
             <li>katar</li>
             <li>kaszel</li>
-            <li>zapalenie krtani</li>
-            <li>zapalenie oskrzeli</li>
-            <li>zapalenie płuc</li>
-            <li>zakażenie układu moczowego</li>
+            <li class="read-more-target">zapalenie krtani</li>
+            <li class="read-more-target">zapalenie oskrzeli</li>
+            <li class="read-more-target">zapalenie płuc</li>
+            <li class="read-more-target">zakażenie układu moczowego</li>
           </ul>
+          <label for="pediatrics" class="read-more-trigger"></label>
         </div>
         <div class="section-item column-element content-services">
-          <div class="row-element y">
+          <div class="row-element">
             <img src="./images\liver.png" alt="liver" class="services-img">
             <img src="./images\stomach.png" alt="stomach" class="services-img">
           </div>
-          <h2 class="section-item-title">Gastroenterologii</h2>
-          <ul>
+          <h2 class="section-item-title">Gastroenterologia</h2>
+          <input type="checkbox" class="read-more-state" id="gastroenterology" />
+          <ul class="read-more-wrap">
             <li>choroba refluksowa przełyku</li>
-            <li>choroby żołądka i dwunastnicy</li>
-            <li>choroby jelita cienkiego i grubego</li>
-            <li>celiakia</li>
             <li>zespół jelita nadwrażliwego (IBS)</li>
-            <li>biegunka</li>
-            <li>zaparcie</li>
             <li>ból brzucha</li>
+            <li>celiakia</li>
+            <li class="read-more-target">biegunka</li>
+            <li class="read-more-target">zaparcie</li>
+            <li class="read-more-target">choroby żołądka i dwunastnicy</li>
+            <li class="read-more-target">choroby jelita cienkiego i grubego</li>
+            <li class="read-more-target">zespół jelita nadwrażliwego (IBS)</li>
           </ul>
+          <label for="gastroenterology" class="read-more-trigger"></label>
         </div>
         <div class="section-item column-element content-services">
-          <div class="row-element z">
+          <div class="row-element">
             <img src="./images\leaf.png" alt="leaf" class="services-img">
             <img src="./images\cereals.png" alt="cereals" class="services-img">
           </div>
-          <h2 class="section-item-title">Alergologii</h2>
-          <ul>
+          <h2 class="section-item-title">Alergologia</h2>
+          <input type="checkbox" class="read-more-state" id="alergology" />
+          <ul class="read-more-wrap">
             <li>astma oskrzelowa</li>
-            <li>alergiczne zapalenie błony śluzowej nosa</li>
-            <li>alergiczny nieżyt nosa</li>
-            <li>alergiczny nieżyt spojówek</li>
             <li>atopowe zapalenie skóry</li>
-            <li>kontaktowe zapalenie skóry</li>
-            <li>pokrzywki skórne</li>
-            <li>alergie skórne</li>
             <li>alergie i nietolerancje pokarmowe</li>
+            <li>alergie wziewne</li>
+            <li class="read-more-target">alergiczne zapalenie błony śluzowej nosa</li>
+            <li class="read-more-target">alergiczny nieżyt nosa</li>
+            <li class="read-more-target">alergiczny nieżyt spojówek</li>
+            <li class="read-more-target">kontaktowe zapalenie skóry</li>
+            <li class="read-more-target">pokrzywki skórne</li>
+            <li class="read-more-target">alergie skórne</li>
           </ul>
+          <label for="alergology" class="read-more-trigger"></label>
         </div>
       </div>
     </section>
@@ -111,12 +117,12 @@
         <div class="section-item column-element">
           <img src="./images\teddy-bear.png" alt="logo" class="profits-img">
           <p class="section-item-title">Zadbaj o komfort dziecka</p>
-          <p class="section-item-desc">Wizyta w domu to spokój Twój i Twojej rodziny</p>
+          <p class="section-item-desc">Wizyta w domu to spokój twój i twojej rodziny</p>
         </div>
         <div class="section-item column-element">
           <img src="./images\wall-clock.png" alt="logo" class="profits-img">
           <p class="section-item-title">Oszczędzaj czas i pieniądze</p>
-          <p class="section-item-desc">Umów lekarza na dogodną dla Ciebie godzinę</p>
+          <p class="section-item-desc">Umów lekarza na dogodną dla ciebie godzinę</p>
         </div>
         <div class="section-item column-element">
           <img src="./images\doctor.png" alt="logo" class="profits-img">
