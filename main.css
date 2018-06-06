@@ -356,6 +356,30 @@ footer > h3 {
   font-weight: 400;
   color: #393E46;
 }
+.photo-tiles-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.inner-tiles-box {
+  width: 50%;
+  height: 80rem;
+  display: flex;
+  flex-direction: row;
+}
+.tiles-column {
+  width: 50%;
+  height: 100%;
+}
+.doctor-photo {
+  background-image: url('images/man_sample_photo.jpg');
+  background-size: cover;
+}
+.single-tile {
+  height: 50%;
+  width: 100%;
+  background-color: green;
+}
 @media screen and (max-width: 1280px) {
   .topnav {
     float: right;
