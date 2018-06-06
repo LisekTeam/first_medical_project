@@ -49,6 +49,9 @@ section {
 .bg-blue {
   background-color: #119DA4;
 }
+.bg-orange {
+  background-color: #F79256;
+}
 .container {
   background-size: contain;
   margin: 0;
@@ -378,7 +381,10 @@ footer > h3 {
 .single-tile {
   height: 50%;
   width: 100%;
-  background-color: green;
+}
+.tile-map {
+  width: 100%;
+  height: 100%;
 }
 @media screen and (max-width: 1280px) {
   .topnav {
