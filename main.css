@@ -304,6 +304,9 @@ i {
   line-height: 2;
   background-color: #025e70;
 }
+.quotation {
+  color: #fff;
+}
 .contact {
   background-color: rgb(238, 238, 238, .5);
 }
