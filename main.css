@@ -1,13 +1,11 @@
 html {
   font-size: 62.5%;
-
 }
 * {
   margin: 0;
   box-sizing: border-box;
 }
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
-*/@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 body {
   margin: 0;
   background-color: #fff;
@@ -203,12 +201,12 @@ section {
   height: 4.2rem;
   position: relative;
   z-index: 8;
-  margin-top: 3rem;
+  margin: 3rem;
   cursor: pointer;
   transition: 0.3s;
 }
 .title-button:hover {
-  background-color: #fff;
+  background-color: #f79256;
 }
 .title-button > p {
   margin: auto 3rem;
@@ -217,9 +215,9 @@ section {
   font-size: 1.7rem;
   text-transform: uppercase;
 }
-.title-button:hover > p {
+/*.title-button:hover > p {
   color: #025e70;
-}
+}*/
 .main-title > p {
   color: #fff;
   position: relative;
@@ -249,7 +247,6 @@ section {
 .about p {
   padding: 10px;
 }
-
 .content h2, h3, p {
   text-align: center;
 }
@@ -275,7 +272,7 @@ i {
 .services-img {
   width: 8rem;
   height: 8rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 .read-more-state {
   display: none;
