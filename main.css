@@ -201,7 +201,7 @@ section {
   height: 4.2rem;
   position: relative;
   z-index: 8;
-  margin: 3rem;
+  margin: 3rem 0 1.6rem 0;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -304,9 +304,16 @@ i {
   line-height: 2;
   background-color: #025e70;
 }
+#sentence-section {
+  min-height: 20rem;
+}
 .quotation {
   color: #fff;
+  font-size: 3rem;
+  text-align: center;
   margin: 3rem;
+  max-width: 100rem;
+  font-family: 'Allura', cursive;
 }
 .contact {
   background-color: rgb(238, 238, 238, .5);
@@ -318,15 +325,21 @@ i {
 footer {
   left: 0;
   bottom: 0;
-  background-color: rgb(37, 41, 51);
-  text-align: center;
+  background-color: #262322;
   color: #EEEEEE;
-  font-size: 10px;
-  height: 50px;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-footer > h3 {
-  line-height: 50px;
+footer > p {
+  line-height: 5rem;
+  margin: 2rem 4rem;
+  font-size: 1.5rem;
+}
+.foxinteractive {
+  color: #f79256;
 }
 .section-items-box {
   max-width: 130rem;
