@@ -75,6 +75,7 @@ section {
   justify-content: space-between;
   font-weight: 300;
   z-index: 10;
+  box-shadow: 1px 12px 15px -11px rgba(0, 0, 0, 0.7);
 }
 .topnav ul > li {
   display: flex;
