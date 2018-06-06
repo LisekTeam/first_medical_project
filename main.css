@@ -23,6 +23,9 @@ section {
   flex-direction: column;
   align-items: center;
 }
+.column-element.center {
+  justify-content: center;
+}
 .row-element {
   display: flex;
   flex-direction: row;
@@ -42,6 +45,9 @@ section {
   color: #393E46;
   max-width: 120rem;
   margin: 0 2rem 4rem 2rem;
+}
+.bg-blue {
+  background-color: #119DA4;
 }
 .container {
   background-size: contain;
@@ -254,7 +260,7 @@ i {
   min-height: 600px;
   color: #393E46;
   margin: 0 auto;
-  background-color: #025e701f;
+  background-color: #EAEBED;
 }
 .check-mark-img {
   height: 2rem;
