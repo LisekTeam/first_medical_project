@@ -52,6 +52,9 @@ section {
 .bg-orange {
   background-color: #F79256;
 }
+.bg-blue-dark {
+  background-color: #025E70;
+}
 .container {
   background-size: contain;
   margin: 0;
