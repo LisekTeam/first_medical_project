@@ -474,6 +474,9 @@ footer > p {
 .acordeon-category-container {
   display: flex;
   flex-direction: column;
+  height: 6rem;
+}
+.acordeon-category-container.open {
   height: initial;
 }
 .acordeon-category-header {
@@ -486,6 +489,7 @@ footer > p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-shrink: 0;
 }
 .acordeon-open-arrow path {
   fill: #fff;
