@@ -5,6 +5,7 @@ function initAll() {
   atfHeight();
   movingMenu();
   servicesLayer();
+  acoMovements();
 }
 
 function atfHeight(){
@@ -59,5 +60,16 @@ function servicesLayer() {
       $('#services-list-layer').removeClass('open');
       /*$('#services-layer-container').removeClass('fadeOutUp');*/
     }, 1000);
+  });
+}
+
+function acoMovements() {
+  $('.acordeon-open-arrow').each(function() {
+    $(this).on('click', function() {
+      $(this).closest('.acordeon-categories').find('.acordeon-category-container').each(function() {
+        $(this).removeClass('open');
+      });
+      $(this).closest('.acordeon-categories').addClass('open');
+    });
   });
 }
