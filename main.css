@@ -106,11 +106,12 @@ section {
   transition: 0.3s;
   background-color: #AACBD4;
 }
-.topnav ul li hover {
-  color: #AACBD4;
+.topnav ul li:hover {
+  color: #f79256;
 }
 .topnav ul li:hover p {
   width: 100%;
+  background-color: #f79256;
 }
 
 .topnav h1, .topnav p {
@@ -118,22 +119,6 @@ section {
 }
 .topnav .icon {
   display: none;
-}
-.underline {
-  display: inline-block;
-  text-decoration: none;
-}
-.underline::after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #AACBD4;
-  transition: width .4s;
-}
-.underline:hover::after {
-  width: 100%;
-  transition: width .4s;
 }
 .logo {
   float: left;
@@ -312,11 +297,17 @@ i {
   background-color: #025e70;
 }
 #sentence-section {
-  min-height: 20rem;
+  min-height: 25rem;
+}
+#sentence-section > p {
+  font-family: 'Caveat', cursive;
+  font-size: 3rem;
+  margin-left: 40%;
+  margin-bottom: 3rem;
 }
 .quotation, .quotation p {
   color: #fff;
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
   margin: 3rem;
   max-width: 100rem;
