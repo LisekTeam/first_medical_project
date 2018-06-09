@@ -314,13 +314,13 @@ i {
 #sentence-section {
   min-height: 20rem;
 }
-.quotation {
+.quotation, .quotation p {
   color: #fff;
   font-size: 3rem;
   text-align: center;
   margin: 3rem;
   max-width: 100rem;
-  font-family: 'Allura', cursive;
+  font-family: 'Caveat', cursive;
 }
 .contact {
   background-color: rgb(238, 238, 238, .5);
