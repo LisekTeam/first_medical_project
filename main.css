@@ -434,6 +434,9 @@ footer > p {
   width: 72rem;
   height: 60rem;
   background-color: #262322;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
 }
 .acordeon-header {
   width: 100%;
@@ -444,14 +447,15 @@ footer > p {
   flex-direction: row;
   align-items: center;
 }
+.acordeon-categories {
+  width: 100%;
+  overflow-y: scroll;
+}
 .acordeon-header-title, .category-header-title {
-  color: #fff;
-  font-size: 2rem;
   position: relative;
   left: 2rem;
-  font-weight: 300;
 }
-.acordeon-close-button {
+.ac-right-icon {
   width: 3rem;
   height: 3rem;
   position: absolute;
@@ -469,7 +473,9 @@ footer > p {
   fill: #F79256;
 }
 .acordeon-category-container {
-
+  display: flex;
+  flex-direction: column;
+  height: initial;
 }
 .acordeon-category-header {
   height: 6rem;
@@ -481,6 +487,31 @@ footer > p {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.acordeon-open-arrow path {
+  fill: #fff;
+  transition: 0.3s;
+}
+.acordeon-open-arrow:hover path {
+  fill: #F79256;
+}
+ul.category-sublist {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+ul.category-sublist > li {
+  height: 6rem;
+  box-sizing: border-box;
+  border-bottom: .1rem solid #2d2928;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2rem;
+  color: #bebebe;
 }
 @media screen and (max-width: 1280px) {
   .topnav {
@@ -513,7 +544,7 @@ footer > p {
   }
 }
 @media screen and (max-width: 768px) {
-  .sl-layer-content {
+  .sl-layer-acordeon {
     width: 100%;
     height: 100vh;
   }
