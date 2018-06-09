@@ -297,9 +297,10 @@ i {
   background-color: #025e70;
 }
 #sentence-section {
-  min-height: 25rem;
+  min-height: 40rem;
 }
-#sentence-section > p {
+
+.name-doctor {
   font-family: 'Caveat', cursive;
   font-size: 3rem;
   margin-left: 40%;
@@ -307,11 +308,17 @@ i {
 }
 .quotation, .quotation p {
   color: #fff;
-  font-size: 5rem;
+  font-size: 6rem;
   text-align: center;
   margin: 3rem;
   max-width: 100rem;
   font-family: 'Caveat', cursive;
+}
+.quotation-line-bottom {
+  height: .1rem;
+  width: 40%;
+  background-color: #fff;
+  margin: 3rem 0;
 }
 .contact {
   background-color: rgb(238, 238, 238, .5);
