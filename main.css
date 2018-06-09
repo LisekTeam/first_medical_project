@@ -426,13 +426,40 @@ footer > p {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.temporary-close-button {
-  width: 5rem;
-  height: 5rem;
-  background-color: green;
-  margin: auto;
+.sl-layer-acordeon {
+  width: 72rem;
+  height: 60rem;
+  background-color: #ffffff;
+}
+.acordeon-header {
+  width: 100%;
+  position: relative;
+  height: 6rem;
+  background-color: #119DA4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acordeon-close-button {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 2rem;
   cursor: pointer;
+}
+.acordeon-close-button svg {
+  enable-background:new 0 0 224.512 224.512;
+}
+.acordeon-close-button svg polygon {
+  fill: #fff;
+  transition: 0.3s;
+}
+.acordeon-close-button:hover svg polygon {
+  fill: #F79256;
 }
 @media screen and (max-width: 1280px) {
   .topnav {
@@ -464,14 +491,17 @@ footer > p {
     padding: 10px;
   }
 }
+@media screen and (max-width: 768px) {
+  .sl-layer-content {
+    width: 100%;
+    height: 100vh;
+  }
+}
 @media screen and (max-width: 650px) {
   .content_body {
     width: 80%;
     padding: 10px;
   }
-}
-@media screen and (max-width: 1200px) {
-
 }
 /*@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
