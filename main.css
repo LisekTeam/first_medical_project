@@ -414,7 +414,7 @@ footer > p {
   display: none;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.8);
   flex-direction: row;
   justify-content: center;
   z-index: 50;
@@ -426,13 +426,92 @@ footer > p {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.temporary-close-button {
-  width: 5rem;
-  height: 5rem;
-  background-color: green;
-  margin: auto;
+.sl-layer-acordeon {
+  width: 72rem;
+  height: 60rem;
+  background-color: #fff;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+}
+.acordeon-header {
+  width: 100%;
+  position: relative;
+  height: 6rem;
+  background-color: #025E70;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acordeon-categories {
+  width: 100%;
+  overflow-y: scroll;
+}
+.acordeon-header-title, .category-header-title {
+  position: relative;
+  left: 2rem;
+}
+.ac-right-icon {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 2rem;
   cursor: pointer;
+}
+.acordeon-close-button svg {
+  enable-background:new 0 0 224.512 224.512;
+}
+.acordeon-close-button svg polygon {
+  fill: #fff;
+  transition: 0.3s;
+}
+.acordeon-close-button:hover svg polygon {
+  fill: #F79256;
+}
+.acordeon-category-container {
+  display: flex;
+  flex-direction: column;
+  height: initial;
+}
+.acordeon-category-header {
+  height: 6rem;
+  width: 100%;
+  background-color: #119DA4;
+  box-sizing: border-box;
+  border-bottom: .1rem solid #1fb2b9;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acordeon-open-arrow path {
+  fill: #fff;
+  transition: 0.3s;
+}
+.acordeon-open-arrow:hover path {
+  fill: #F79256;
+}
+ul.category-sublist {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+ul.category-sublist > li {
+  height: 6rem;
+  box-sizing: border-box;
+  border-bottom: .1rem solid #ededed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 2rem;
+  color: #262322;
 }
 @media screen and (max-width: 1280px) {
   .topnav {
@@ -464,14 +543,17 @@ footer > p {
     padding: 10px;
   }
 }
+@media screen and (max-width: 768px) {
+  .sl-layer-acordeon {
+    width: 100%;
+    height: 100vh;
+  }
+}
 @media screen and (max-width: 650px) {
   .content_body {
     width: 80%;
     padding: 10px;
   }
-}
-@media screen and (max-width: 1200px) {
-
 }
 /*@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}

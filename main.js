@@ -51,7 +51,7 @@ function servicesLayer() {
       }
     }
   });
-  $('.temporary-close-button').on('click', function() {
+  $('.acordeon-close-button').on('click', function() {
     $('#services-list-layer').removeClass('fadeIn');
     $('#services-list-layer').addClass('fadeOut');
     /*$('#services-layer-container').addClass('fadeOutUp');*/
