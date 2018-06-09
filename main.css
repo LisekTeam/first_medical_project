@@ -433,7 +433,7 @@ footer > p {
 .sl-layer-acordeon {
   width: 72rem;
   height: 60rem;
-  background-color: #262322;
+  background-color: #fff;
   color: #fff;
   font-size: 2rem;
   font-weight: 300;
@@ -506,12 +506,12 @@ ul.category-sublist {
 ul.category-sublist > li {
   height: 6rem;
   box-sizing: border-box;
-  border-bottom: .1rem solid #2d2928;
+  border-bottom: .1rem solid #ededed;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-left: 2rem;
-  color: #bebebe;
+  color: #262322;
 }
 @media screen and (max-width: 1280px) {
   .topnav {
