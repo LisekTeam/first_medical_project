@@ -452,7 +452,7 @@ footer > p {
 }
 .acordeon-categories {
   width: 100%;
-  overflow-y: scroll;
+
 }
 .acordeon-header-title, .category-header-title {
   position: relative;
@@ -479,6 +479,7 @@ footer > p {
   display: flex;
   flex-direction: column;
   height: 6rem;
+  overflow: hidden;
 }
 .acordeon-category-container.open {
   height: initial;
