@@ -66,10 +66,21 @@ function servicesLayer() {
 function acoMovements() {
   $('.acordeon-open-arrow').each(function() {
     $(this).on('click', function() {
-      $(this).closest('.acordeon-categories').find('.acordeon-category-container').each(function() {
+      if ($(this).closest('.acordeon-category-container').hasClass('open')) {
+        $(this).closest('.acordeon-category-container').removeClass('open');
+      } else {
+        $('.acordeon-category-container').each(function() {
+          $(this).removeClass('open');
+        });
+        $(this).closest('.acordeon-category-container').addClass('open');
+      }
+
+    /*  $(this).closest('.acordeon-categories').find('.acordeon-category-container').each(function() {
         $(this).removeClass('open');
       });
-      $(this).closest('.acordeon-categories').addClass('open');
+      $(this).closest('.acordeon-categories').addClass('open');*/
+
+
     });
   });
 }
