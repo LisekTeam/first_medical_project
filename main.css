@@ -304,18 +304,22 @@ i {
   font-family: 'Caveat', cursive;
   font-size: 3rem;
   margin-top: 1.9rem;
-  border-top: .1rem solid #fff;
-  width: 100rem;
+  width: 95%;
   padding-top: 2rem;
 }
 .name-doctor p {
   float: right;
+  margin-right: 1rem;
+}
+.sentence {
+  max-width: 100rem;
+  text-align: center;
 }
 .quotation {
   color: #fff;
   font-size: 5rem;
   text-align: center;
-  max-width: 100rem;
+  width: 100%;
   font-family: 'Caveat', cursive;
 }
 .contact {
