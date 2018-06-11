@@ -257,6 +257,11 @@ i {
   width: 2rem;
   margin-right: 2rem;
 }
+.services-svg-icon {
+  width: 8rem;
+  height: 8rem;
+  margin: 3rem 0;
+}
 .content-services {
   background-color: #ffffff;
   padding: 1rem;
