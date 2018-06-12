@@ -304,6 +304,11 @@ i {
   height: 8rem;
   margin: 3rem 0;
 }
+.profits-svg-icon {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 3rem;
+}
 .content-services {
   background-color: #ffffff;
   padding: 1rem;
