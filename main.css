@@ -480,9 +480,10 @@ footer > p {
   flex-direction: column;
   height: 6rem;
   overflow: hidden;
+  transition: 1s;
 }
 .acordeon-category-container.open {
-  height: initial;
+  height: auto;
 }
 .acordeon-category-header {
   height: 6rem;
