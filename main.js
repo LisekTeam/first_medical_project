@@ -6,6 +6,7 @@ function initAll() {
   movingMenu();
   servicesLayer();
   acoMovements();
+  $.stellar();
 }
 
 function atfHeight(){
