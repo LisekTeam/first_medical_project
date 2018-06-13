@@ -233,6 +233,48 @@ section {
   height: 260px;
   margin: 40px auto;
 }
+.color-coconut {
+  fill:#9B6534;
+}
+.color-copper {
+  fill:#AA7135;
+}
+.color-pale-taupe {
+  fill:#B9A086;
+}
+.color-dark-vanilla {
+  fill:#D5B99B;
+}
+.color-metallic-sunburst {
+  fill:#A26B34;
+}
+.color-raisin-black {
+  fill:#231F20;
+}
+.color-cg-red {
+  fill:#D64231;
+}
+.color-firebrick {
+  fill:#B22F28;
+}
+.color-vivid-cerulean {
+  fill:#00ABE9;
+}
+.color-azure {
+  fill:#0095FF;
+}
+.color-platinum {
+  fill:#E7E7E7;
+}
+.color-light-gray {
+  fill:#D3D3D8;
+}
+.color-davys-grey {
+  fill:#5A5A5A;
+}
+.color-arsenic {
+  fill:#444444;
+}
 .about {
   flex-grow: 7;
   color: #393E46;
@@ -256,6 +298,16 @@ i {
   height: 2rem;
   width: 2rem;
   margin-right: 2rem;
+}
+.services-svg-icon {
+  width: 8rem;
+  height: 8rem;
+  margin: 3rem 0;
+}
+.profits-svg-icon {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 3rem;
 }
 .content-services {
   background-color: #ffffff;

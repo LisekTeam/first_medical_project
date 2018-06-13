@@ -22,6 +22,12 @@ jQuery('.menu-button').click(function(event){
    });
 }
 
+$(document).ready(function(){
+  $('#nav-icon3').click(function(){
+    $(this).toggleClass('open');
+  });
+});
+
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
