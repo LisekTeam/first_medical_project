@@ -300,6 +300,7 @@ a.call-me-cont {
 .color-meat-red { fill:#7F2E2B; }
 .color-meat-light { fill:#B95150; }
 .color-caramel-light { fill:#CA8357; }
+
 .about {
   flex-grow: 7;
   color: #393E46;
