@@ -188,6 +188,10 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px)
+  rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1);
 }
 a.call-me-cont {
   width: 20rem;
@@ -256,6 +260,10 @@ a.call-me-cont {
   width: 260px;
   height: 260px;
   margin: 40px auto;
+}
+main {
+  position: relative;
+  z-index: 100;
 }
 .color-coconut { fill:#9B6534; }
 .color-copper { fill:#AA7135; }

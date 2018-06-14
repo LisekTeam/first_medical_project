@@ -6,14 +6,18 @@ function initAll() {
   movingMenu();
   servicesLayer();
   acoMovements();
-  $.stellar();
+  /*$.stellar({
+    responsive: false,
+    scrollProperty: 'scroll',
+  });*/
+  rellax();
 }
 
-function atfHeight(){
+function atfHeight() {
   $('#header-section').height($(window).innerHeight());
 }
 
-function movingMenu(){
+function movingMenu() {
 jQuery('.menu-button').click(function(event){
        event = event || window.event;
        var sectionID = event.currentTarget.id + "-section";
@@ -23,7 +27,15 @@ jQuery('.menu-button').click(function(event){
    });
 }
 
-$(document).ready(function(){
+function rellax() {
+  var rellax = new Rellax('.rellax', {
+    callback: function(position) {
+
+    }
+  });
+}
+
+$(document).ready(function() {
   $('#nav-icon3').click(function(){
     $(this).toggleClass('open');
   });
