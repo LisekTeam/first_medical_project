@@ -220,21 +220,51 @@ a.call-me-cont {
 .main-title p {
   font-size: 2rem;
 }
+.title-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+.title-button.atf , .title-number.atf {
+  margin: 0 .7rem;
+}
 .title-button {
   background-color: rgba(2, 94, 112, 0.8);
   display: flex;
   height: 4.2rem;
   position: relative;
   z-index: 8;
-  margin: 3rem 0 1.6rem 0;
   cursor: pointer;
   transition: 0.3s;
+}
+a.title-number {
+  display: flex;
+  height: 4.2rem;
+  position: relative;
+  z-index: 8;
+  cursor: pointer;
+  transition: 0.3s;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  width: 23rem;
+  text-decoration: none;
+  outline: none;
+}
+.title-button.srv {
+  margin: 3rem 0 1.6rem 0;
 }
 .title-button:hover {
   background-color: #f79256;
 }
 .title-button > p {
   margin: auto 3rem;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.title-number > p {
+  margin: auto;
   color: #fff;
   font-weight: 300;
   font-size: 1.7rem;
