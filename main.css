@@ -47,14 +47,41 @@ section {
 .bg-blue {
   background-color: #119DA4;
 }
+.bg-orange-photo {
+  background-image: url('./images/city.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.bg-blue-photo {
+  background-image: url('./images/leafs.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.bg-orange-photo:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(187, 96, 44, 0.8);
+}
+.bg-blue-photo:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 43, 45, 0.8);
+}
 .bg-orange {
   background-color: #F79256;
 }
 .bg-blue-dark {
   background-color: #025E70;
 }
-.about-sentence {
+p.about-sentence {
   margin: auto;
+  padding: 0 5rem;
 }
 .white-sentence {
   color: #fff;
@@ -357,7 +384,8 @@ main {
   color: #393E46;
 }
 .about p {
-  padding: 10px;
+  padding: 0 2.4rem;
+  font-weight: 300;
 }
 .content h2, h3, p {
   text-align: center;
@@ -527,6 +555,18 @@ footer > p {
 .doctor-photo {
   background-image: url('images/man_sample_photo.jpg');
   background-size: cover;
+  position: relative;
+}
+.black-shadow:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+.about p.about-sentence {
+  position: relative;
+  z-index: 50;
 }
 .single-tile {
   height: 50%;
@@ -534,10 +574,18 @@ footer > p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 .tile-map {
   width: 100%;
   height: 100%;
+}
+p.tiles-photo-title {
+  margin: auto;
+  color: #fff;
+  font-size: 5rem;
+  position: relative;
+  z-index: 50;
 }
 .additional-layer-container {
   position: fixed;
@@ -680,16 +728,84 @@ ul.category-sublist > li {
     padding: 10px;
   }
 }
+@media screen and (max-width: 1350px) {
+  .inner-tiles-box {
+    height: 60rem;
+  }
+  p.about-sentence {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .photo-tiles-box {
+    flex-direction: column;
+  }
+  .inner-tiles-box {
+    width: 100%;
+    height: 80rem;
+  }
+  p.about-sentence {
+    font-size: 2rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .sl-layer-acordeon {
     width: 100%;
     height: 100vh;
+  }
+  .inner-tiles-box {
+    width: 100%;
+    height: 60rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  p.about-sentence {
+    font-size: 1.6rem;
   }
 }
 @media screen and (max-width: 650px) {
   .content_body {
     width: 80%;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .inner-tiles-box {
+    flex-direction: column;
+    height: 80rem;
+  }
+  .tiles-column {
+    width: 100%;
+  }
+  .bg-orange.rwd {
+    background-color: #fff;
+  }
+  .white-sentence.rwd {
+    color: #393E46;
+  }
+  .bg-orange-rwd {
+    background-image: url('./images/city.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .bg-orange-rwd:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(187, 96, 44, 0.8);
+  }
+  .white-sentence-rwd {
+    color: #fff;
+  }
+  .bg-orange-photo:before {
+    background-color: #fff;
+  }
+}
+@media screen and (max-width: 340px) {
+  .inner-tiles-box {
+    height: 90rem;
   }
 }
 /*@media screen and (max-width: 600px) {
