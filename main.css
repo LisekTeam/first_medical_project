@@ -212,6 +212,12 @@ a.call-me-cont {
   height: 5rem;
   margin-bottom: 0.6rem;
 }
+.phone-ico {
+  width: 1.7rem;
+  height: 1.7rem;
+  fill: #ffffff;
+  margin-right: 1rem;
+}
 .main-title .phone-num {
   color: #fff;
   font-size: 3.2rem;
@@ -263,12 +269,19 @@ a.title-number {
   font-size: 1.7rem;
   text-transform: uppercase;
 }
-.title-number > p {
-  margin: auto;
+.atf-phone > p {
   color: #fff;
   font-weight: 300;
   font-size: 1.7rem;
   text-transform: uppercase;
+}
+
+.atf-phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 .main-title > p {
   color: #fff;
@@ -568,7 +581,6 @@ footer > p {
 }
 .acordeon-categories {
   width: 100%;
-
 }
 .acordeon-header-title, .category-header-title {
   position: relative;
