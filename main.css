@@ -616,6 +616,7 @@ p.tiles-photo-title {
   color: #fff;
   font-size: 2rem;
   font-weight: 300;
+  overflow: auto;
 }
 .acordeon-header {
   width: 100%;
