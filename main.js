@@ -6,6 +6,8 @@ function initAll() {
   movingMenu();
   servicesLayer();
   acoMovements();
+  burgerMenu();
+  closeBurger();
   /*$.stellar({
     responsive: false,
     scrollProperty: 'scroll',
@@ -26,6 +28,30 @@ jQuery('.menu-button').click(function(event){
        }, 1000)
    });
 }
+function burgerMenu() {
+ $('#nav-icon3').on('click', function() {
+   if(!$('.mobile-menu-buttons').hasClass('open')) {
+     $('.mobile-menu-buttons').addClass('open');
+   } else {
+     $('.mobile-menu-buttons').removeClass('open');
+   }
+ });
+}
+function closeBurger() {
+ $(window).scroll(function() {
+   $('.mobile-menu-buttons').removeClass('open');
+   $('#nav-icon3').removeClass('open');
+ });
+}
+// function moveingMobilemenu() {
+//   $('.main-burger-icon').on('click', function() {
+//     if(!$('.mobile-menu-buttons').hasClass('open')) {
+//       $('.mobile-menu-buttons').addClass('open');
+//   } else {
+//     $('.mobile-menu-buttons').removeClass('open');
+//   };
+//   });
+// }
 
 function rellax() {
   var rellax = new Rellax('.rellax', {
@@ -40,15 +66,6 @@ $(document).ready(function() {
     $(this).toggleClass('open');
   });
 });
-
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
 
 function servicesLayer() {
   $('.layer-open').each(function() {
