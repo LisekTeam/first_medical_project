@@ -43,20 +43,9 @@ function closeBurger() {
    $('#nav-icon3').removeClass('open');
  });
 }
-// function moveingMobilemenu() {
-//   $('.main-burger-icon').on('click', function() {
-//     if(!$('.mobile-menu-buttons').hasClass('open')) {
-//       $('.mobile-menu-buttons').addClass('open');
-//   } else {
-//     $('.mobile-menu-buttons').removeClass('open');
-//   };
-//   });
-// }
-
 function rellax() {
   var rellax = new Rellax('.rellax', {
     callback: function(position) {
-
     }
   });
 }
