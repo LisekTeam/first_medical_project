@@ -119,18 +119,24 @@ p.about-sentence {
   padding: 0;
   display: flex;
 }
+.topnav ul {
+  display: flex;
+  flex-direction: row;
+}
 .topnav ul li {
-  display: inline-block;
+  display: flex;
   position: relative;
   margin: 0 10px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
   color: #EEEEEE;
-  line-height: 60px;
   transition: 0.3s;
 }
-.topnav ul li p {
+.button-title {
+  margin: auto;
+}
+.underline{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -139,14 +145,14 @@ p.about-sentence {
   transition: 0.3s;
   background-color: #AACBD4;
 }
-.topnav ul li:hover {
+.topnav ul li:hover .button-title {
   color: #f79256;
 }
-.topnav ul li:hover p {
+li:hover .underline {
   width: 100%;
   background-color: #f79256;
 }
-.topnav h1, .topnav p {
+.topnav h1 {
   float: left;
 }
 #main-burger-icon {

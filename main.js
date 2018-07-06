@@ -31,8 +31,10 @@ jQuery('.menu-button').click(function(event){
 function burgerMenu() {
  $('#nav-icon3').on('click', function() {
    if(!$('.mobile-menu-buttons').hasClass('open')) {
+     $('#nav-icon3').addClass('open');
      $('.mobile-menu-buttons').addClass('open');
    } else {
+     $('#nav-icon3').removeClass('open');
      $('.mobile-menu-buttons').removeClass('open');
    }
  });
@@ -49,12 +51,6 @@ function rellax() {
     }
   });
 }
-
-$(document).ready(function() {
-  $('#nav-icon3').click(function(){
-    $(this).toggleClass('open');
-  });
-});
 
 function servicesLayer() {
   $('.layer-open').each(function() {
