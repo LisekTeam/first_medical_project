@@ -303,6 +303,7 @@ li:hover .underline {
   background-image: url(./images/computer-1149148_1920.jpg);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   min-height: 600px;
   width: 100%;
   position: relative;
@@ -817,6 +818,25 @@ ul.category-sublist > li {
     font-size: 1.6rem;
   }
 }
+@media screen and (max-width: 1280px) {
+  .main-title > .upper {
+    font-size: 8rem;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .main-title > .upper {
+    font-size: 7rem;
+  }
+  .main-title > .lower {
+    font-size: 2.8rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .main-title > .upper {
+    font-size: 6rem;
+  }
+}
 @media screen and (max-width: 980px) {
   .topnav {
     position: fixed;
@@ -832,12 +852,6 @@ ul.category-sublist > li {
   .mobile-menu-buttons.open {
     display: block;
   }
-  .title-buttons {
-    flex-direction: column;
-  }
-  .title-button.atf, .title-number.atf {
-    margin: 1.5rem .7rem;
-  }
   .photo-tiles-box {
     flex-direction: column;
   }
@@ -847,6 +861,14 @@ ul.category-sublist > li {
   }
   p.about-sentence {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 860px) {
+  .main-title > .upper {
+    margin: 0 5rem;
+  }
+  .main-title > .lower {
+    margin: 0 5rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -868,6 +890,17 @@ ul.category-sublist > li {
   .content_body {
     width: 80%;
     padding: 10px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .title-buttons {
+    flex-direction: column;
+  }
+  .title-number.atf, .title-button.atf {
+    margin-bottom: 1.6rem;
+  }
+  .atf-container {
+    background-position: right;
   }
 }
 @media screen and (max-width: 540px) {
