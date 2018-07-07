@@ -866,9 +866,11 @@ ul.category-sublist > li {
 @media screen and (max-width: 860px) {
   .main-title > .upper {
     margin: 0 5rem;
+    font-size: 50px;
   }
   .main-title > .lower {
     margin: 0 5rem;
+    font-size: 2.2rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -879,6 +881,11 @@ ul.category-sublist > li {
   .inner-tiles-box {
     width: 100%;
     height: 60rem;
+  }
+  .main-title > .upper {
+    width: 43rem;
+    line-height: 4.6rem;
+    margin-bottom: .6rem;
   }
 }
 @media screen and (max-width: 680px) {
@@ -901,6 +908,13 @@ ul.category-sublist > li {
   }
   .atf-container {
     background-position: right;
+  }
+  .main-title > .upper {
+    width: 26rem;
+    margin: 2rem 0;
+  }
+  .main-title > .lower {
+    width: 26rem;
   }
 }
 @media screen and (max-width: 540px) {
