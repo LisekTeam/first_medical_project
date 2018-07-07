@@ -936,6 +936,7 @@ ul.category-sublist > li {
   }
   .section-item.profits {
     margin: 0 3rem;
+    padding-bottom: 5rem;
   }
   .section-item-desc {
     font-size: 1.6rem;
