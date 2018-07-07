@@ -925,6 +925,12 @@ ul.category-sublist > li {
   .section-description {
     font-size: 1.6rem;
   }
+  .section-item-desc {
+    font-size: 1.6rem;
+  }
+  .section-item-title {
+    font-size: 2.2rem;
+  }
   p.tiles-photo-title {
     font-size: 3.4rem;
   }
