@@ -253,11 +253,11 @@ li:hover .underline {
   display: block;
   width: 100%;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 2.2rem;
   cursor: pointer;
   padding: 1rem;
   border-bottom: .1rem solid #178c91;
-  height: 4rem;
+  height: 5rem;
 }
 .topnav ul li p.menu-button-mobile-txt {
   position: relative;
