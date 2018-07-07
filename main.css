@@ -919,6 +919,9 @@ ul.category-sublist > li {
     line-height: 4rem;
     margin: 4rem 2rem;
   }
+  .header-underline {
+    margin-bottom: 5rem;
+  }
   p.tiles-photo-title {
     font-size: 3.4rem;
   }
