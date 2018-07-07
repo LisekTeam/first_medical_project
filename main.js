@@ -12,7 +12,9 @@ function initAll() {
     responsive: false,
     scrollProperty: 'scroll',
   });*/
-  rellax();
+  if ($(window).width() > 980) {
+    rellax();
+  }
 }
 
 function atfHeight() {
