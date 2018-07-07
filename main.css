@@ -922,6 +922,9 @@ ul.category-sublist > li {
   .header-underline {
     margin-bottom: 4.6rem;
   }
+  .section-description {
+    font-size: 1.6rem;
+  }
   p.tiles-photo-title {
     font-size: 3.4rem;
   }
