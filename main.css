@@ -928,6 +928,9 @@ ul.category-sublist > li {
   .acordeon-open-arrow:hover path {
     fill: #fff;
   }
+  .section-item {
+    margin: 0 0 6rem 0;
+  }
 }
 @media screen and (max-width: 680px) {
   p.about-sentence {
