@@ -916,6 +916,18 @@ ul.category-sublist > li {
   .name-doctor {
     font-size: 2.4rem;
   }
+  .topnav ul li:hover .button-title {
+    color: #fff;
+  }
+  .title-button:hover {
+    background-color: rgba(2, 94, 112, 0.8);
+  }
+  .acordeon-close-button:hover svg polygon {
+    fill: #fff;
+  }
+  .acordeon-open-arrow:hover path {
+    fill: #fff;
+  }
 }
 @media screen and (max-width: 680px) {
   p.about-sentence {
