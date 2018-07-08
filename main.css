@@ -767,6 +767,7 @@ p.tiles-photo-title {
   height: 3rem;
   position: absolute;
   right: 2rem;
+  top: 1.6rem;
   cursor: pointer;
 }
 .acordeon-close-button svg {
