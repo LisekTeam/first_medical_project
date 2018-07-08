@@ -998,6 +998,9 @@ ul.category-sublist > li {
   .tiles-column {
     width: 100%;
   }
+  .tiles-column {
+    background-position: center -50px;
+  }
   .bg-orange.rwd {
     background-color: #fff;
   }
@@ -1022,6 +1025,14 @@ ul.category-sublist > li {
   }
   .bg-orange-photo:before {
     background-color: #fff;
+  }
+  .tiles-photo-title {
+    padding-top: 15rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tiles-column {
+    background-position: center -20px;
   }
 }
 @media screen and (max-width: 390px) {
