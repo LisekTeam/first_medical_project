@@ -677,7 +677,7 @@ footer > p {
   height: 100%;
 }
 .doctor-photo {
-  background-image: url('images/maciek2.jpg');
+  background-image: url('images/maciek3.jpg');
   background-size: cover;
   position: relative;
 }
@@ -686,7 +686,7 @@ footer > p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.4);
 }
 .about p.about-sentence {
   position: relative;
@@ -709,7 +709,7 @@ p.tiles-photo-title {
   font-weight: 400;
   margin: auto;
   color: #fff;
-  font-size: 4.2rem;
+  font-size: 5.4rem;
   position: relative;
   z-index: 50;
 }
