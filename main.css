@@ -150,6 +150,7 @@ p.about-sentence {
   cursor: pointer;
   color: #EEEEEE;
   transition: 0.3s;
+  line-height: 6rem;
 }
 .button-title {
   margin: auto;
