@@ -81,6 +81,7 @@ section {
   height: 100%;
   background-color: rgba(187, 96, 44, 0.8);
   left: 0;
+  top: 0;
 }
 .bg-blue-photo:before {
   content: '';
@@ -89,7 +90,7 @@ section {
   height: 100%;
   background-color: rgba(6, 43, 45, 0.8);
   left: 0;
-
+  top: 0;
 }
 .bg-orange {
   background-color: #F79256;
