@@ -59,6 +59,9 @@ section {
 .bg-blue {
   background-color: #119DA4;
 }
+.bg-grey {
+  background-color: #EAEBED;
+}
 .bg-orange-photo {
   background-image: url('./images/kamil-gliwinski-568269-unsplash.jpg');
   background-size: cover;
@@ -587,6 +590,7 @@ i {
 .name-doctor p {
   float: right;
   margin-right: 1rem;
+  color: #025E70;
 }
 .sentence {
   max-width: 100rem;
@@ -594,7 +598,7 @@ i {
   margin: 0 5rem;
 }
 .quotation {
-  color: #fff;
+  color: #025E70;
   font-size: 5rem;
   text-align: center;
   width: 100%;
