@@ -98,7 +98,6 @@ section {
   background-color: #025E70;
 }
 p.about-sentence {
-  margin: auto;
   padding: 0 5rem;
 }
 .white-sentence {
@@ -515,7 +514,7 @@ main {
   color: #393E46;
 }
 .about p {
-  padding: 0.8rem 2.4rem;
+  padding: 0.2rem 2.4rem 0.8rem 2.4rem;
   font-weight: 300;
 }
 .content h2, h3, p {
@@ -705,6 +704,7 @@ footer > p {
 .about p.about-sentence {
   position: relative;
   z-index: 50;
+  line-height: 2.3rem;
 }
 .single-tile {
   height: 50%;
@@ -712,7 +712,17 @@ footer > p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
+}
+.quoticon {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: relative;
+  z-index: 100;
+}
+.quoticon > .grey {
+  fill: #717479;
 }
 .tile-map {
   width: 100%;
@@ -839,6 +849,9 @@ ul.category-sublist > li {
   align-items: center;
   padding-left: 2rem;
   color: #262322;
+}
+.quoticon.rwd-grey {
+  display: none;
 }
 @media screen and (max-width: 1350px) {
   .inner-tiles-box {
@@ -1059,6 +1072,12 @@ ul.category-sublist > li {
   p.tiles-photo-title {
     padding-top: 15rem;
   }
+  .quoticon.rwd-white{
+    display: none;
+  }
+  .quoticon.rwd-grey{
+    display: block;
+  }
 }
 @media screen and (max-width: 400px) {
   .tiles-column {
@@ -1098,6 +1117,10 @@ ul.category-sublist > li {
 }
 @media screen and (max-width: 340px) {
   .inner-tiles-box {
-    height: 90rem;
+    height: 88rem;
+  }
+  .about p.about-sentence {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
