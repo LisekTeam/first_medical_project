@@ -80,6 +80,7 @@ section {
   width: 100%;
   height: 100%;
   background-color: rgba(187, 96, 44, 0.8);
+  left: 0;
 }
 .bg-blue-photo:before {
   content: '';
@@ -87,6 +88,8 @@ section {
   width: 100%;
   height: 100%;
   background-color: rgba(6, 43, 45, 0.8);
+  left: 0;
+
 }
 .bg-orange {
   background-color: #F79256;
@@ -324,6 +327,7 @@ li:hover .underline {
   width: 100%;
   position: relative;
   display: flex;
+  align-items: center;
 }
 .atf-container:before {
   content: "";
@@ -331,6 +335,7 @@ li:hover .underline {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.7);
+  top: 0;
 }
 .main-title {
   margin: auto;
@@ -420,6 +425,7 @@ a.title-number {
   font-weight: 300;
   font-size: 1.7rem;
   text-transform: uppercase;
+  line-height: 1.8rem;
   height: 1.8rem;
 }
 .atf-phone > p {
@@ -694,6 +700,7 @@ footer > p {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.4);
+  left: 0;
 }
 .about p.about-sentence {
   position: relative;
