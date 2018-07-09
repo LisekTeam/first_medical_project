@@ -612,7 +612,7 @@ i {
 .section ul, .section p {
   font-size: 1.8rem;
   font-weight: 300;
-  list-style-image: url(./images/check-mark.svg);
+  max-width: 100%;
 }
 footer {
   left: 0;
