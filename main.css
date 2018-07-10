@@ -18,6 +18,8 @@ section {
   min-height: 10rem;
 }
 .column-element {
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,6 +63,9 @@ section {
 }
 .bg-grey {
   background-color: #EAEBED;
+}
+.bg-white {
+  background-color: #ffffff;
 }
 .bg-orange-photo {
   background-image: url('./images/kamil-gliwinski-568269-unsplash.jpg');
@@ -390,6 +395,9 @@ a.call-me-cont {
 .title-button.atf , .title-number.atf {
   margin: 0 .7rem;
 }
+.title-button.atf {
+  padding: 0 3rem;
+}
 .title-button {
   background-color: rgba(2, 94, 112, 0.8);
   display: flex;
@@ -413,15 +421,18 @@ a.title-number {
   outline: none;
 }
 .title-button.srv {
-  margin: 3rem 0 1.6rem 0;
+  margin: 3rem auto 1.6rem auto;
   position: absolute;
   bottom: 1rem;
+  width: 12rem;
+  right: 0;
+  left: 0;
 }
 .title-button:hover {
   background-color: #f79256;
 }
 .title-button > p {
-  margin: auto 3rem;
+  margin: auto;
   color: #fff;
   font-weight: 300;
   font-size: 1.7rem;
@@ -674,6 +685,7 @@ footer > p {
   font-size: 2rem;
   font-weight: 300;
   color: #393E46;
+  max-width: 100%;
 }
 .photo-tiles-box {
   display: flex;
