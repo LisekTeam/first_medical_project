@@ -1111,6 +1111,12 @@ ul.category-sublist > li {
   .section-items-box {
     margin: 4rem auto;
   }
+  .inner-tiles-box {
+    height: 90rem;
+  }
+  .doctor-photo {
+    background-size: 115%;
+  }
 }
 @media screen and (max-width: 350px) {
   .section-item {
@@ -1118,9 +1124,6 @@ ul.category-sublist > li {
   }
 }
 @media screen and (max-width: 340px) {
-  .inner-tiles-box {
-    height: 88rem;
-  }
   .about p.about-sentence {
     font-size: 1.5rem;
     line-height: 2rem;
