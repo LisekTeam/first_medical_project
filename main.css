@@ -598,7 +598,7 @@ i {
   background-color: #025e70;
 }*/
 #sentence-section {
-  min-height: 35rem;
+  height: 35rem;
 }
 .name-doctor {
   font-family: 'Caveat', cursive;
@@ -924,7 +924,7 @@ ul.category-sublist > li {
     line-height: 4.2rem;
   }
   #sentence-section {
-    min-height: 28rem;
+    height: 28rem;
   }
 }
 @media screen and (max-width: 860px) {
@@ -1117,7 +1117,7 @@ ul.category-sublist > li {
     margin-top: 0;
   }
   #sentence-section {
-    min-height: 24rem;
+    height: 24rem;
   }
   .sentence {
     margin: 0 2rem;
