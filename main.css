@@ -560,20 +560,15 @@ main {
 .content h2, h3, p {
   text-align: center;
 }
-i {
-  padding-right: 15px;
-}
 .services {
   min-height: 600px;
   color: #393E46;
   margin: 0 auto;
   background-color: #EAEBED;
 }
-/*.check-mark-img {
-  height: 2rem;
-  width: 2rem;
-  margin-right: 2rem;
-}*/
+.read-more-wrap {
+  list-style-image: url(./images/keyboard-right-arrow-button.svg);
+}
 .services-svg-icon {
   width: 8rem;
   height: 8rem;
