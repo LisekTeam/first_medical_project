@@ -972,7 +972,7 @@ ul.category-sublist > li {
     font-size: 6rem;
   }
   .sentence {
-    max-width: 98%;
+    max-width: 94%;
   }
 }
 @media screen and (max-width: 980px) {
