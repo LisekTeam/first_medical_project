@@ -572,7 +572,7 @@ main {
   background-color: #EAEBED;
 }
 .read-more-wrap {
-  list-style-image: url(./images/keyboard-right-arrow-button.svg);
+  list-style: none;
   padding: 0 3rem;
 }
 .services-svg-icon {
