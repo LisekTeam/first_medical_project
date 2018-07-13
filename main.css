@@ -686,9 +686,9 @@ main {
   width: 100%;
   font-family: 'Caveat', cursive;
 }
-.contact {
+/*.contact {
   background-color: rgb(238, 238, 238, .5);
-}
+}*/
 .section ul, .section p {
   font-size: 1.8rem;
   font-weight: 300;
@@ -705,13 +705,17 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer > p {
+footer > p, .contact {
   line-height: 5rem;
   margin: 2rem 4rem;
   font-size: 1.5rem;
 }
+.vertical-line {
+  color: #f79256;
+}
 .foxinteractive {
   color: #f79256;
+  font-weight: 600;
 }
 .section-items-box {
   max-width: 130rem;
@@ -1007,6 +1011,13 @@ ul.category-sublist > li {
   #sentence-section {
     height: 28rem;
   }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer p, .contact {
+    margin: 1rem;
+  }
 }
 @media screen and (max-width: 860px) {
   .main-title > .upper {
@@ -1211,6 +1222,9 @@ ul.category-sublist > li {
   }
   .doctor-photo {
     background-size: 115%;
+  }
+  .vertical-line {
+    display: none;
   }
 }
 @media screen and (max-width: 350px) {
