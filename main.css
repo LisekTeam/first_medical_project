@@ -100,13 +100,13 @@ section {
   background-color: #ffffff;
 }
 .bg-orange-photo {
-  background-image: url('./images/kamil-gliwinski-568269-unsplash.jpg');
+  background-image: url('./images/warsaw_bg.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
 }
 .bg-blue-photo {
-  background-image: url('./images/dawid-zawila-279998-unsplash.jpg');
+  background-image: url('./images/puff_ball.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -573,6 +573,7 @@ main {
 }
 .read-more-wrap {
   list-style-image: url(./images/keyboard-right-arrow-button.svg);
+  padding: 0 3rem;
 }
 .services-svg-icon {
   width: 8rem;
@@ -893,6 +894,11 @@ ul.category-sublist > li {
 }
 .quoticon.rwd-grey {
   display: none;
+}
+.service-pointer svg{
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: .1rem;
 }
 @media screen and (max-width: 1350px) {
   .inner-tiles-box {
