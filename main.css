@@ -934,6 +934,11 @@ ul.category-sublist > li {
   height: 1.2rem;
   margin-top: .1rem;
 }
+@media screen and (max-width: 1380px) {
+  .section-items-box {
+    max-width: 98%;
+  }
+}
 @media screen and (max-width: 1350px) {
   .inner-tiles-box {
     height: 60rem;
@@ -945,6 +950,12 @@ ul.category-sublist > li {
 @media screen and (max-width: 1280px) {
   .main-title > .upper {
     font-size: 8rem;
+  }
+  .section-header {
+    max-width: 98%;
+  }
+  .section-description {
+    max-width: 98%;
   }
 }
 @media screen and (max-width: 1140px) {
@@ -959,6 +970,9 @@ ul.category-sublist > li {
 @media screen and (max-width: 1040px) {
   .main-title > .upper {
     font-size: 6rem;
+  }
+  .sentence {
+    max-width: 98%;
   }
 }
 @media screen and (max-width: 980px) {
