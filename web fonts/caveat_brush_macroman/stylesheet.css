@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'caveat_brushregular';
+    src: url('caveatbrush-regular-webfont.eot');
+    src: url('caveatbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('caveatbrush-regular-webfont.woff2') format('woff2'),
+         url('caveatbrush-regular-webfont.woff') format('woff'),
+         url('caveatbrush-regular-webfont.ttf') format('truetype'),
+         url('caveatbrush-regular-webfont.svg#caveat_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
