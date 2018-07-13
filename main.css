@@ -955,7 +955,7 @@ ul.category-sublist > li {
     max-width: 98%;
   }
   .section-description {
-    max-width: 98%;
+    max-width: 94%;
   }
 }
 @media screen and (max-width: 1140px) {
