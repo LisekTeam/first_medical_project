@@ -711,8 +711,7 @@ footer p {
   font-size: 1.5rem;
 }
 .contact > p {
-  line-height: 5rem;
-  margin: auto 1rem;
+  margin: 2rem 0;
 }
 .contact {
   display: flex;
@@ -723,7 +722,7 @@ footer p {
 }
 .vertical-line {
   color: #f79256;
-  margin: auto 0;
+  margin: 2rem 1rem;
   line-height: 5rem;
 }
 .foxinteractive {
@@ -1028,8 +1027,15 @@ ul.category-sublist > li {
     flex-direction: column;
     justify-content: center;
   }
-  footer p, footer.contact > p {
-    margin: 1rem;
+  footer p {
+    margin: 1.5rem;
+    line-height: inherit;
+  }
+  .contact > p {
+    line-height: inherit;
+  }
+  .vertical-line {
+    line-height: inherit;
   }
 }
 @media screen and (max-width: 860px) {
@@ -1203,6 +1209,12 @@ ul.category-sublist > li {
 @media screen and (max-width: 460px) {
   .vertical-line {
     display: none;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact p {
+    margin: .5rem 0;
   }
 }
 @media screen and (max-width: 400px) {
