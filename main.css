@@ -705,16 +705,21 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer > p, .contact {
+footer p {
   line-height: 5rem;
   margin: 2rem 4rem;
   font-size: 1.5rem;
+}
+.contact > p {
+  line-height: 5rem;
+  margin: auto 1rem;
 }
 .contact {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  font-size: 1.5rem;
 }
 .vertical-line {
   color: #f79256;
@@ -1023,7 +1028,7 @@ ul.category-sublist > li {
     flex-direction: column;
     justify-content: center;
   }
-  footer p, .contact {
+  footer p, footer.contact > p {
     margin: 1rem;
   }
 }
