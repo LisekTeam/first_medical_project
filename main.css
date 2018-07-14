@@ -710,8 +710,16 @@ footer > p, .contact {
   margin: 2rem 4rem;
   font-size: 1.5rem;
 }
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .vertical-line {
   color: #f79256;
+  margin: auto 0;
+  line-height: 5rem;
 }
 .foxinteractive {
   color: #f79256;
@@ -1187,6 +1195,11 @@ ul.category-sublist > li {
     display: block;
   }
 }
+@media screen and (max-width: 460px) {
+  .vertical-line {
+    display: none;
+  }
+}
 @media screen and (max-width: 400px) {
   .tiles-column {
     background-position: center -20px;
@@ -1222,9 +1235,6 @@ ul.category-sublist > li {
   }
   .doctor-photo {
     background-size: 115%;
-  }
-  .vertical-line {
-    display: none;
   }
 }
 @media screen and (max-width: 350px) {
