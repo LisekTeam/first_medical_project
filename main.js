@@ -31,13 +31,16 @@ jQuery('.menu-button').click(function(event){
    });
 }
 function burgerMenu() {
- $('#nav-icon3').on('click', function() {
+  var burgerHeight = $('.menu-buttons-list').height();
+  $('#nav-icon3').on('click', function() {
    if(!$('.mobile-menu-buttons').hasClass('open')) {
      $('#nav-icon3').addClass('open');
      $('.mobile-menu-buttons').addClass('open');
+     $('.mobile-menu-buttons').css('height',burgerHeight);
    } else {
      $('#nav-icon3').removeClass('open');
      $('.mobile-menu-buttons').removeClass('open');
+     $('.mobile-menu-buttons').css('height',0);
    }
  });
 }
