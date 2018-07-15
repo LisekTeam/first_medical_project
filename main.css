@@ -934,6 +934,9 @@ p.tiles-photo-title {
 .acordeon-open-arrow:hover path {
   fill: #F79256;
 }
+.acordeon-open-arrow.rotate {
+  transform: rotate(180deg);
+}
 ul.category-sublist {
   width: 100%;
   margin: 0;

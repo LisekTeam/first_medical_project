@@ -80,7 +80,8 @@ function servicesLayer() {
       $(targetCat).addClass('open');
       var containerClass = categories[i];
       var containerHeight = heights[i];
-      $('.'+containerClass).css('height',containerHeight+'px')
+      $('.'+containerClass).css('height',containerHeight+'px');
+      $('.'+containerClass).find('.acordeon-open-arrow').addClass('rotate');
       firstClick = false;
       //------------------------koniec testu wysokości
 
@@ -98,6 +99,8 @@ function servicesLayer() {
           $('#services-list-layer').removeClass('open');
           $('.acordeon-category-container').each(function() {
             $(this).removeClass('open');
+            $(this).css('height','6rem');
+            $(this).find('.acordeon-open-arrow').removeClass('rotate');
           });
         }, 500);
       }
@@ -114,18 +117,17 @@ function servicesLayer() {
     $(this).on('click', function() {
       var containerClass2 = categories[j];
       var containerHeight2 = heights[j];
-      console.log('naciśnięto strzałkę '+j);
-      console.log('adam ' + categories + " " + heights);
-      console.log('adam ' + categories[j] + " " + heights[j]);
-      console.log('adam ' + containerClass2 + " " + containerHeight2);
       if ($(this).closest('.acordeon-category-container').hasClass('open')) {
         $(this).closest('.acordeon-category-container').css('height','6rem');
         $(this).closest('.acordeon-category-container').removeClass('open');
+        $(this).closest('.acordeon-category-container').find('.acordeon-open-arrow').removeClass('rotate');
       } else {
         $('.acordeon-category-container').each(function() {
           $(this).css('height','6rem');
+          $(this).find('.acordeon-open-arrow').removeClass('rotate');
           $(this).removeClass('open');
           $(this).closest('.acordeon-categories').find('.'+containerClass2).css('height',containerHeight2+'px');
+          $(this).closest('.acordeon-categories').find('.'+containerClass2).find('.acordeon-open-arrow').addClass('rotate')
         });
 
         $(this).closest('.acordeon-category-container').addClass('open');
@@ -137,6 +139,8 @@ function servicesLayer() {
     $('#services-list-layer').addClass('fadeOut');
     $('.acordeon-category-container').each(function() {
       $(this).removeClass('open');
+      $(this).css('height','6rem');
+      $(this).find('.acordeon-open-arrow').removeClass('rotate');
     });
     /*$('#services-layer-container').addClass('fadeOutUp');*/
     setTimeout(function(){
