@@ -708,7 +708,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  min-height: 8.4rem;
+  height: 8.4rem;
 }
 footer p {
   margin: 0 4rem;
@@ -1038,6 +1038,8 @@ ul.category-sublist > li {
   footer {
     flex-direction: column;
     justify-content: center;
+    height: inherit;
+
   }
   footer p {
     margin: 3.2rem 0;
