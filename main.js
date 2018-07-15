@@ -98,6 +98,7 @@ function servicesLayer() {
           $('#services-list-layer').removeClass('open');
           $('.acordeon-category-container').each(function() {
             $(this).removeClass('open');
+            $(this).css('height','6rem');
           });
         }, 500);
       }
@@ -114,10 +115,10 @@ function servicesLayer() {
     $(this).on('click', function() {
       var containerClass2 = categories[j];
       var containerHeight2 = heights[j];
-      console.log('naciśnięto strzałkę '+j);
+      /*console.log('naciśnięto strzałkę '+j);
       console.log('adam ' + categories + " " + heights);
       console.log('adam ' + categories[j] + " " + heights[j]);
-      console.log('adam ' + containerClass2 + " " + containerHeight2);
+      console.log('adam ' + containerClass2 + " " + containerHeight2);*/
       if ($(this).closest('.acordeon-category-container').hasClass('open')) {
         $(this).closest('.acordeon-category-container').css('height','6rem');
         $(this).closest('.acordeon-category-container').removeClass('open');
@@ -137,6 +138,7 @@ function servicesLayer() {
     $('#services-list-layer').addClass('fadeOut');
     $('.acordeon-category-container').each(function() {
       $(this).removeClass('open');
+      $(this).css('height','6rem');
     });
     /*$('#services-layer-container').addClass('fadeOutUp');*/
     setTimeout(function(){
