@@ -713,6 +713,10 @@ footer p {
   font-size: 1.5rem;
   align-items: center;
 }
+.footer-number {
+  text-decoration: none;
+  color: #EEEEEE;
+}
 .contact > p {
   margin: 0;
 }
@@ -1214,6 +1218,9 @@ ul.category-sublist > li {
   }
   .contact {
     flex-direction: column;
+  }
+  .contact p {
+    margin: .5rem 0;
   }
 }
 @media screen and (max-width: 400px) {
