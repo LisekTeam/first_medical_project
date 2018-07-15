@@ -607,7 +607,8 @@ main {
 }
 .read-more-wrap {
   list-style: none;
-  padding: 0 3rem;
+  padding: 0 4.4rem;
+  list-style-image: url('images/chevron-med2.png');
 }
 .services-svg-icon {
   width: 8rem;
@@ -905,9 +906,11 @@ p.tiles-photo-title {
   overflow: hidden;
   transition: 1s;
 }
+/*
 .acordeon-category-container.open {
   height: auto;
 }
+*/
 .acordeon-category-header {
   height: 6rem;
   width: 100%;
