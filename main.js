@@ -8,6 +8,7 @@ function initAll() {
   acoMovements();
   burgerMenu();
   closeBurger();
+  upToDate();
   /*$.stellar({
     responsive: false,
     scrollProperty: 'scroll',
@@ -109,4 +110,10 @@ function acoMovements() {
       $(targetCat).addClass('open');
     });
   });
+}
+
+function upToDate() {
+  var d = new Date();
+  var curYear = d.getFullYear().toString();
+  $('#current-year').html(curYear);
 }
