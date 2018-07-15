@@ -903,9 +903,11 @@ p.tiles-photo-title {
   overflow: hidden;
   transition: 1s;
 }
+/*
 .acordeon-category-container.open {
   height: auto;
 }
+*/
 .acordeon-category-header {
   height: 6rem;
   width: 100%;
