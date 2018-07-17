@@ -1002,6 +1002,9 @@ ul.category-sublist > li {
   height: 1.2rem;
   margin-top: .1rem;
 }
+.pharmacy-item {
+  box-shadow: 1px 12px 15px -11px rgba(0, 0, 0, 0.51);
+}
 @media screen and (max-width: 1380px) {
   .section-items-box {
     max-width: 98%;
