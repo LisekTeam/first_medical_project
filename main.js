@@ -27,7 +27,7 @@ jQuery('.menu-button').click(function(event){
        event = event || window.event;
        var sectionID = event.currentTarget.id + "-section";
        jQuery("html,body").animate({
-           scrollTop: jQuery("#" + sectionID).offset().top - 60
+           scrollTop: jQuery("#" + sectionID).offset().top - 58
        }, 1000)
    });
 }
