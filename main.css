@@ -565,6 +565,7 @@ a.title-number {
   font-size: 3.2rem;
   font-weight: 300;
   color: #fff;
+  text-align: center;
 }
 .image {
   background-image: url(./images/nonsap-visuals-511403-unsplash.jpg);
