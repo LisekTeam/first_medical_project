@@ -74,7 +74,7 @@ function servicesLayer() {
       $(this).closest('body').find('#services-list-layer').removeClass('fadeOut');
       $(this).closest('body').find('#services-list-layer').addClass('open');
       $(this).closest('body').find('#services-list-layer').addClass('fadeIn');
-
+      $(this).closest('body').find('.return-arrow').removeClass('visible');
       //----------------------początek testu wysokości
       $('.acordeon-category-container').each(function(i){
         var catNum = i + 1;
@@ -106,6 +106,7 @@ function servicesLayer() {
       if($('#services-list-layer').hasClass('open')) {
         $('#services-list-layer').removeClass('fadeIn');
         $('#services-list-layer').addClass('fadeOut');
+        $('.return-arrow').addClass('visible');
         setTimeout(function(){
           $('#services-list-layer').removeClass('open');
           $('.acordeon-category-container').each(function() {
@@ -142,6 +143,7 @@ function servicesLayer() {
   $('.acordeon-close-button').on('click', function() {
     $('#services-list-layer').removeClass('fadeIn');
     $('#services-list-layer').addClass('fadeOut');
+    $('.return-arrow').addClass('visible');
     $('.acordeon-category-container').each(function() {
       $(this).removeClass('open');
       $(this).css('height','6rem');
