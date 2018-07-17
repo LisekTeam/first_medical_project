@@ -21,15 +21,14 @@ function initAll() {
 function atfHeight() {
   $('#header-section').height($(window).innerHeight());
 }
-
 function movingMenu() {
-jQuery('.menu-button').click(function(event){
-       event = event || window.event;
-       var sectionID = event.currentTarget.id + "-section";
-       jQuery("html,body").animate({
-           scrollTop: jQuery("#" + sectionID).offset().top - 58
-       }, 1000)
-   });
+  $('.menu-button').on('click touch', function(event) {
+    event = event || window.event;
+    var sectionID = event.currentTarget.id + "-section";
+    jQuery("html,body").animate({
+        scrollTop: jQuery("#" + sectionID).offset().top - 58
+    }, 1000);
+  });
 }
 function burgerMenu() {
   var burgerHeight = $('.menu-buttons-list').height();
