@@ -32,7 +32,7 @@ function movingMenu() {
   });
 }
 function scrollBack() {
-  $('#return-arrow').on('click touch', function(event) {
+  $('#return-arrow').on('vclick click touch', function(event) {
     event.preventDefault();
     event = event || window.event;
     jQuery("html,body").animate({
