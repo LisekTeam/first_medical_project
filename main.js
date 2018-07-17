@@ -50,6 +50,13 @@ function closeBurger() {
    $('.mobile-menu-buttons').removeClass('open');
    $('#nav-icon3').removeClass('open');
  });
+ $('.menu-button-mobile').each(function() {
+   $(this).on('click', function() {
+     $(this).closest('.mobile-menu-buttons').removeClass('open');
+     $(this).closest('.mobile-menu-buttons').css('height',0);
+     $('#nav-icon3').removeClass('open');
+   });
+ });
 }
 function rellax() {
   var rellax = new Rellax('.rellax', {

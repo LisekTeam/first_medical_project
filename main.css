@@ -561,9 +561,10 @@ a.title-number {
   font-weight: 300;
   font-size: 9rem;
 }
-.main-title > .lower {
+.main-title > h2.lower {
   font-size: 3.2rem;
   font-weight: 300;
+  color: #fff;
 }
 .image {
   background-image: url(./images/nonsap-visuals-511403-unsplash.jpg);
@@ -1024,7 +1025,7 @@ ul.category-sublist > li {
   .main-title > .upper {
     font-size: 7rem;
   }
-  .main-title > .lower {
+  .main-title > h2.lower {
     font-size: 2.8rem;
     margin-top: 1rem;
   }
@@ -1086,7 +1087,7 @@ ul.category-sublist > li {
     margin: 0 5rem;
     font-size: 50px;
   }
-  .main-title > .lower {
+  .main-title > h2.lower {
     margin: 0 5rem;
     font-size: 2.2rem;
   }
@@ -1190,7 +1191,7 @@ ul.category-sublist > li {
     width: 26rem;
     margin: 2rem 0;
   }
-  .main-title > .lower {
+  .main-title > h2.lower {
     width: 26rem;
   }
   .quotation {
@@ -1267,7 +1268,7 @@ ul.category-sublist > li {
   .tiles-column {
     background-position: center -20px;
   }
-  .main-title > .lower {
+  .main-title > h2.lower {
     margin: 0;
   }
   .sl-layer-acordeon {
