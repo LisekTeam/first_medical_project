@@ -391,27 +391,37 @@ li:hover .underline {
   height: 3.5rem;
   margin: 3px 0 0 3px;
 }
-.return {
-  background-color: #025e70;
-  border-radius: 50%;
+.return-arrow {
+  background-color: #025E70;
   z-index: 999999;
   position: fixed;
-  right: 1rem;
-  bottom: 3rem;
-  height: 6rem;
-  width: 6rem;
-  border: .1rem solid #f79256;
+  bottom: 1.5rem;
+  right: -5.7rem;
+  height: 4.2rem;
+  width: 4.2rem;
   cursor: pointer;
-  display: none;
-  text-align: center;
-  box-shadow: 0 .5rem .4rem 0 rgba(0,0,0,.26);
-}
-/*.back-arrow {
-  width: 4rem;
-}*/
-/*.show {
   display: block;
-}*/
+  text-align: center;
+  padding-top: 0.8rem;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+.return-arrow.visible {
+  right: 1.5rem;
+}
+@media screen and (min-width: 981px) {
+  .return-arrow.onfooter {
+    bottom: 10rem;
+  }
+}
+.return-arrow svg {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.return-arrow:hover {
+  opacity: 1;
+  background-color: #f79256;
+}
 .atf-container {
   background-image: url(./images/computer-1149148_1920.jpg);
   background-size: cover;
@@ -1035,6 +1045,9 @@ ul.category-sublist > li {
   }
   .topnav .main_ul {
     display: none;
+  }
+  .return-arrow:hover {
+    background-color: #025E70;
   }
   #main-burger-icon {
     display: block;
