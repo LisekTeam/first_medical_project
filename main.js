@@ -47,7 +47,7 @@ function burgerMenu() {
 }
 function closeBurger() {
  $(window).scroll(function() {
-   $('.mobile-menu-buttons').removeClass('open');
+   $('.mobile-menu-buttons').removeClass('open').css('height',0);
    $('#nav-icon3').removeClass('open');
  });
  $('.menu-button-mobile').each(function() {
