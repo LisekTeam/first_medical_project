@@ -859,6 +859,34 @@ footer p {
 .quoticon > .grey {
   fill: #717479;
 }
+.pharmacy-box {
+  /*border: .3rem solid #f79256;*/
+  /*border-radius: .5rem;*/
+  background-color: #025E70;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pharmacy-header-underline {
+  background-color: #f79256;
+}
+.pharmacy-title {
+  color: #EEEEEE;
+  text-align: center;
+}
+.pharmacy-list {
+  list-style: none;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #EEEEEE;
+}
+.pharmacy-button {
+  border: .2rem solid #EEEEEE;
+  margin-top: 2rem;
+}
 .tile-map {
   width: 100%;
   height: 100%;
