@@ -36,7 +36,7 @@ function scrollBack() {
     event.preventDefault();
     event = event || window.event;
     jQuery("html,body").animate({
-      scrollTop: 0
+      scrollTop: -100
     }, 1000);
   });
 }
