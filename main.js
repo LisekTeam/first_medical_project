@@ -37,23 +37,27 @@ function burgerMenu() {
    if(!$('.mobile-menu-buttons').hasClass('open')) {
      $('#nav-icon3').addClass('open');
      $('.mobile-menu-buttons').addClass('open');
-     $('.mobile-menu-buttons').css('height',burgerHeight);
+     // $('.mobile-menu-buttons').css('height',burgerHeight);
+     $('.mobile-menu-buttons').height(burgerHeight);
    } else {
      $('#nav-icon3').removeClass('open');
      $('.mobile-menu-buttons').removeClass('open');
-     $('.mobile-menu-buttons').css('height',0);
+     // $('.mobile-menu-buttons').css('height',0);
+     $('.mobile-menu-buttons').height(0);
    }
  });
 }
 function closeBurger() {
  $(window).scroll(function() {
-   $('.mobile-menu-buttons').removeClass('open').css('height',0);
+   // $('.mobile-menu-buttons').removeClass('open').css('height',0);
+   $('.mobile-menu-buttons').removeClass('open').height(0);
    $('#nav-icon3').removeClass('open');
  });
  $('.menu-button-mobile').each(function() {
    $(this).on('click', function() {
      $(this).closest('.mobile-menu-buttons').removeClass('open');
-     $(this).closest('.mobile-menu-buttons').css('height',0);
+     // $(this).closest('.mobile-menu-buttons').css('height',0);
+     $(this).closest('.mobile-menu-buttons').height(0);
      $('#nav-icon3').removeClass('open');
    });
  });
@@ -91,7 +95,8 @@ function servicesLayer() {
       $(targetCat).addClass('open');
       var containerClass = categories[i];
       var containerHeight = heights[i];
-      $('.'+containerClass).css('height',containerHeight+'px');
+      // $('.'+containerClass).css('height',containerHeight+'px');
+      $('.'+containerClass).height(containerHeight);
       $('.'+containerClass).find('.acordeon-open-arrow').addClass('rotate');
       firstClick = false;
       //------------------------koniec testu wysokości
@@ -111,7 +116,8 @@ function servicesLayer() {
           $('#services-list-layer').removeClass('open');
           $('.acordeon-category-container').each(function() {
             $(this).removeClass('open');
-            $(this).css('height','6rem');
+            // $(this).css('height','6rem');
+            $(this).height('6rem');
             $(this).find('.acordeon-open-arrow').removeClass('rotate');
           });
         }, 500);
@@ -124,15 +130,18 @@ function servicesLayer() {
       var containerClass2 = categories[j];
       var containerHeight2 = heights[j];
       if ($(this).closest('.acordeon-category-container').hasClass('open')) {
-        $(this).closest('.acordeon-category-container').css('height','6rem');
+        // $(this).closest('.acordeon-category-container').css('height','6rem');
+        $(this).closest('.acordeon-category-container').height('6rem');
         $(this).closest('.acordeon-category-container').removeClass('open');
         $(this).closest('.acordeon-category-container').find('.acordeon-open-arrow').removeClass('rotate');
       } else {
         $('.acordeon-category-container').each(function() {
-          $(this).css('height','6rem');
+          // $(this).css('height','6rem');
+          $(this).height('6rem');
           $(this).find('.acordeon-open-arrow').removeClass('rotate');
           $(this).removeClass('open');
-          $(this).closest('.acordeon-categories').find('.'+containerClass2).css('height',containerHeight2+'px');
+          // $(this).closest('.acordeon-categories').find('.'+containerClass2).css('height',containerHeight2+'px');
+          $(this).closest('.acordeon-categories').find('.'+containerClass2).height(containerHeight2);
           $(this).closest('.acordeon-categories').find('.'+containerClass2).find('.acordeon-open-arrow').addClass('rotate')
         });
 
@@ -146,7 +155,8 @@ function servicesLayer() {
     $('.return-arrow').addClass('visible');
     $('.acordeon-category-container').each(function() {
       $(this).removeClass('open');
-      $(this).css('height','6rem');
+      // $(this).css('height','6rem');
+      $(this).height('6rem');
       $(this).find('.acordeon-open-arrow').removeClass('rotate');
     });
     /*$('#services-layer-container').addClass('fadeOutUp');*/
