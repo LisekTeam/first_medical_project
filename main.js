@@ -4,6 +4,7 @@ function initAll() {
   /*tu umieszczajmy wywołania*/
   atfHeight();
   movingMenu();
+  scrollBack();
   servicesLayer();
   burgerMenu();
   closeBurger();
@@ -27,6 +28,15 @@ function movingMenu() {
     var sectionID = event.currentTarget.id + "-section";
     jQuery("html,body").animate({
         scrollTop: jQuery("#" + sectionID).offset().top - 58
+    }, 1000);
+  });
+}
+function scrollBack() {
+  $('#return-arrow').on('click touch', function(event) {
+    event.preventDefault();
+    event = event || window.event;
+    jQuery("html,body").animate({
+      scrollTop: 0
     }, 1000);
   });
 }
