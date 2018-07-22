@@ -665,36 +665,6 @@ main {
   height: 8rem;
   margin: 3rem 0;
 }
-/*.read-more-state {
-  display: none;
-}
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
-}*/
-/*.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999rem;
-}
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Więcej';
-}
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Mniej';
-}
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5rem;
-  margin: 1rem;
-  color: #fff;
-  font-size: 1.2rem;
-  line-height: 2;
-  background-color: #025e70;
-}*/
 #sentence-section {
   height: 35rem;
 }
@@ -857,7 +827,7 @@ footer p {
   z-index: 100;
 }
 .quoticon > .grey {
-  fill: #717479;
+  fill: #0586d2;
 }
 .pharmacy-box {
   display: flex;
@@ -866,6 +836,9 @@ footer p {
   align-items: center;
   padding-bottom: 0;
   color: #393E46;
+}
+.pin-svg {
+  fill: #00ABE9;
 }
 .pin-box {
   width: 5rem;
@@ -886,8 +859,15 @@ footer p {
   margin-top: 2rem;
 }
 .tile-map {
+  background-image: url('./images/mapa.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.map {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 p.tiles-photo-title {
   font-family: 'Quicksand', sans-serif;
