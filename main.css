@@ -860,19 +860,18 @@ footer p {
   fill: #717479;
 }
 .pharmacy-box {
-  /*border: .3rem solid #f79256;*/
-  /*border-radius: .5rem;*/
-  background-color: #025E70;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0;
+  color: #393E46;
 }
-.pharmacy-header-underline {
-  background-color: #f79256;
+.pin-box {
+  width: 5rem;
+  height: 5rem;
 }
 .pharmacy-title {
-  color: #EEEEEE;
   text-align: center;
 }
 .pharmacy-list {
@@ -881,7 +880,6 @@ footer p {
   text-align: center;
   margin: 0;
   padding: 0;
-  color: #EEEEEE;
 }
 .pharmacy-button {
   border: .2rem solid #EEEEEE;
@@ -1029,9 +1027,6 @@ ul.category-sublist > li {
   width: 1.2rem;
   height: 1.2rem;
   margin-top: .1rem;
-}
-.pharmacy-item {
-  box-shadow: 1px 12px 15px -11px rgba(0, 0, 0, 0.51);
 }
 @media screen and (max-width: 1380px) {
   .section-items-box {
