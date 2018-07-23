@@ -10,6 +10,7 @@ function initAll() {
   closeBurger();
   upToDate();
   backArrow();
+  pinUp();
   /*$.stellar({
     responsive: false,
     scrollProperty: 'scroll',
@@ -202,4 +203,12 @@ function backArrow() {
 	$(window).scroll(function() {
 		startChange();
 	});
+}
+
+function pinUp() {
+  $('.pharmacy-website').each(function() {
+    $(this).hover(function() {
+      $(this).closest('.section-item').find('.pin-box').toggleClass('pin-up');
+    });
+  });
 }

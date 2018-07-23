@@ -871,6 +871,11 @@ footer p {
 .pin-box {
   width: 5rem;
   height: 5rem;
+  position: relative;
+  transition: 0.3s;
+}
+.pin-box.pin-up {
+  transform: translateY(-1rem);
 }
 .pharmacy-title {
   text-align: center;
