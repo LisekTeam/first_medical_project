@@ -662,7 +662,7 @@ main {
   margin-bottom: 3rem;
 }
 .content-services {
-  background-color: #ffffff;
+  background-color: #EAEBED;
   padding: 1rem;
   box-shadow: 1px 12px 15px -11px rgba(0, 0, 0, 0.51);
 }
@@ -693,7 +693,7 @@ main {
 }
 .quotation {
   color: #025E70;
-  font-size: 5rem;
+  font-size: 4.8rem;
   text-align: center;
   width: 100%;
   font-family: 'Caveat', cursive;
