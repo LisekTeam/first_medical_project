@@ -867,6 +867,7 @@ footer p {
 }
 .pin-svg {
   fill: rgba(11, 141, 187, 0.8);
+  transition: 0.3s;
 }
 .pin-box {
   width: 5rem;
@@ -875,7 +876,10 @@ footer p {
   transition: 0.3s;
 }
 .pin-box.pin-up {
-  transform: translateY(-1rem);
+  transform: translateY(-0.6rem);
+}
+.pin-box.pin-up svg .pin-svg {
+  fill: rgba(247, 146, 87, 1);
 }
 .pharmacy-title {
   text-align: center;
