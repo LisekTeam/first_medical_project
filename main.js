@@ -14,9 +14,9 @@ function initAll() {
     responsive: false,
     scrollProperty: 'scroll',
   });*/
-  // if ($(window).width() > 980) {
-  //   rellax();
-  // }
+  if ($(window).width() > 980) {
+    rellax();
+  }
 }
 
 function atfHeight() {
