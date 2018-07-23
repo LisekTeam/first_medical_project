@@ -882,9 +882,17 @@ footer p {
   margin: 0;
   padding: 0;
 }
-.pharmacy-button {
-  border: .2rem solid #EEEEEE;
-  margin-top: 2rem;
+.pharmacy-tel, .pharmacy-website {
+  font-size: 1.5rem;
+  list-style: none;
+  color: #393E46;
+  transition: .3s;
+}
+.pharmacy-tel  {
+  text-decoration: none;
+}
+.pharmacy-website:hover {
+  color: #f79256;
 }
 .tile-map {
   background-image: url('./images/mapa.jpg');
