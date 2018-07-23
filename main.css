@@ -1262,7 +1262,7 @@ ul.category-sublist > li {
     color: #393E46;
   }
   .bg-orange-rwd {
-    background-image: url('./images/city.jpg');
+    background-image: url('./images/warsaw_bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1280,7 +1280,7 @@ ul.category-sublist > li {
     color: #fff;
   }
   .bg-orange-photo:before {
-    background-color: #ffffffdb;
+    background-color: #ffffff;
   }
   p.tiles-photo-title {
     padding-top: 15rem;
